@@ -1,0 +1,17 @@
+
+/*main css (www.sucaijiayuan.com)*/
+.bottom_tools{position:fixed;z-index:1070;bottom:60px;    position: fixed;
+    left: 50%;
+    margin-left: 610px;}
+.bottom_tools>*{font:0/0 a;display:block;margin-top:5px;color:transparent;border:0;background-color:transparent;text-shadow:none}
+.qr_img{position:absolute;top:-189px;left:-183px;display:none;}
+#scrollUp{width:60px;height:60px;background-image:url(top-btn-ico1.png);display:none;}
+#scrollUp:hover{background-image:url(top-btn-ico2.png);}
+#feedback{width:60px;height:60px;background-image:url(gb1.png);}
+#feedback:hover{background-image:url(gb2.png);}
+.qr_tool{width:60px;height:60px;background-image:url(q.png);cursor:pointer;}
+.qr_tool:hover {width:60px;height: 60px;background-image: url(q.png);}
+
+.page-body {padding-top:10px;background: #fff;height:2500px;}
+.page-footer {margin-top:20px;padding-top:10px;background: #444;height:200px;border-top:10px solid #333}
+

