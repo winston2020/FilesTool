@@ -116,31 +116,31 @@ function 图片(){
 function Master(){
     $url = Input::path();
     if (strpos($url, 'cluGG') !== false || strpos($url, 'clugg') !== false) {
-        return 'GG';
+        return 'George';
     }//George
     elseif (strpos($url, 'cluWS') !== false || strpos($url, 'cluws') !== false) {
-        return 'WS';
+        return 'Winston';
     }//Winston
     elseif (strpos($url, 'cluLK') !== false || strpos($url, 'clulk') !== false) {
-        return 'LU';
+        return 'LUKE';
     }//Luke
     elseif (strpos($url, 'cluAV') !== false || strpos($url, 'cluav') !== false) {
-        return 'AV';
+        return 'Arvin';
     }//Arvin
     elseif (strpos($url, 'cluAD') !== false || strpos($url, 'cluad') !== false) {
-        return 'AD';
+        return 'Ada';
     }//Ada
     elseif (strpos($url, 'cluNI') !== false || strpos($url, 'cluni') !== false) {
-        return 'NI';
+        return 'Nicholas';
     }//ZhaoSi
     elseif (strpos($url, 'cluPR') !== false || strpos($url, 'clupr') !== false) {
-        return 'PR';
+        return 'Perry';
     }//Perry
     elseif (strpos($url, 'cluHD') !== false || strpos($url, 'cluhd') !== false) {
-        return 'HD';
+        return 'Hedy';
     }//Hedy
     elseif (strpos($url, 'cluBB') !== false || strpos($url, 'clubb') !== false) {
-        return 'BB';
+        return 'Bieber';
     }//Bieber
     return 'data';
 }
