@@ -31,6 +31,18 @@ function 标题($num = 0){ //随机从标题库中获取一个标题，用于配
     return getrandom(Master().'/biaoti',$num);
 }
 
+function 人名(){ //随机获取一个人名
+    return getrandom(Master().'/p_name');
+}
+
+function 城市名(){ //随机获取一个人名
+    return getrandom(Master().'/city_name');
+}
+
+function 网站名(){ //随机获取一个人名
+    return getrandom(Master().'/web_name');
+}
+
 function 整篇文章(){ //从文章库中随机获取一篇文章,将以文章标题标签获取的标题寻找文章
     return getallbody(Master().'/txt');
 }
@@ -43,7 +55,7 @@ function 年月日(){ //年-月-日
     return date('Y-m-d');
 }
 
-function 年与日时分秒(){ //年-月-日 小时:分:秒
+function 年月日时分秒(){ //年-月-日 小时:分:秒
     return date('Y-m-d H:i:s');
 }
 
@@ -82,29 +94,6 @@ function 图片(){
 
 
 //---------标签结束----------//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
