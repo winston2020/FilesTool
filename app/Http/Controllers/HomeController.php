@@ -6,6 +6,7 @@ use App\Data;
 use App\Keywords;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
@@ -20,7 +21,8 @@ class HomeController extends Controller
 
     public function index()
     {
-        dd('HOME');
+       $a = Storage::directories();
+        dd($a);
         $datacount = DB::select('select count(1) from m_data');
         $a = self::object_to_array($datacount[0]);
         $count = $a['count(1)'];

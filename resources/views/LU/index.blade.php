@@ -1,1 +1,1 @@
-{{\App\Core::栏目()}}
+{{getallbody()}}
