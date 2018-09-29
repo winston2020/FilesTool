@@ -76,6 +76,10 @@ function 随机日期(){        //获取三天内的随机时间,年-月-日
 
 }
 
+function 网站名称(){
+    return getrandom(Master().'/name');
+}
+
 function 过去时间($time){     //传入的参数：整数，代表想获取多少天前的时间,年-月-日 小时:分:秒
     return date('Y-m-d H:i:s' , strtotime("-".$time." day"));
 
@@ -140,7 +144,7 @@ function Master(){
 
 
 
-function getrandom($path = '/txt',$num){
+function getrandom($path = '/txt',$num = 0){
     $files = Storage::files($path); //获取路径下所有文件
     $rand = rand(0,count($files)-1);
     $file = @fopen($files[$rand],'r'); //以读取模式打开文件
@@ -264,9 +268,11 @@ function setbodytitle($path = 'body',$num = 1,$line = 'demo'){
 
 function getimg($path = 'img'){
     $files = Storage::files($path);
-    $rand = rand(0,count($files)-1);
-    $file = Storage::url($files[$rand]);
-    return $file;
+    if(!count($files) <= 0){
+        $rand = rand(0,count($files)-1);
+        $file = Storage::url($files[$rand]);
+        return $file;
+    }
 }
 
 
