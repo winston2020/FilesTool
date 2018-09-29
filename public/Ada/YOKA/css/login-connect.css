@@ -1,0 +1,43 @@
+body {
+	margin:0;padding:0;
+}
+
+.passport_connect_loginWin,.passport_connect_loginWin dl,.passport_connect_loginWin dt,.passport_connect_loginWin dd,.passport_connect_loginWin ul,.passport_connect_loginWin li{ margin:0;padding:0;}
+.passport_connect_loginWin ul,.passport_connect_loginWin li { list-style:none;}
+.passport_connect_loginBox{ position:fixed; _position:absolute; left:0;top:0;}
+.passport_connect_loginWin { width:546px; height:317px; top:50%; left:50%; margin-left:-273px; margin-top:-158px; overflow:hidden; position:fixed; _position:absolute; z-index:9997; font-size:12px;}
+.passport_connect_loginWin span { display:block; position:absolute; z-index:9998; width:546px; height:317px; background:#000; opacity:0.45; filter:alpha(opacity=45);}
+.passport_connect_loginConBox { width:509px; height:277px; overflow:hidden; padding:15px 13px 14px 14px; border:1px solid #1c1c1c; background:#fff; margin:4px 0 0 4px; position:absolute; z-index:9999;}
+.passport_connect_loginTit{ width:509px; height:58px; overflow:hidden;}
+.passport_connect_loginTit dt { height:33px; width:504px; padding-left:5px; font-weight:bolder; color:#000; font-size:14px;}
+.passport_connect_loginTit i { cursor:pointer; display:block; float:right; background:url(http://images.yoka.com/pic/div/2010/dlzc/loginWinBg.gif) no-repeat; width:18px; height:18px;}
+.passport_connect_loginTit dd { height:25px; padding-left:5px;}
+.passport_connect_loginType{ width:509px; overflow:hidden; height:31px;}
+.passport_connect_loginType ul{ width:512px; overflow:hidden;}
+.passport_connect_loginType li { width:219px; display:inline; margin-right:2px; cursor:pointer; padding:8px 0 0 34px; height:21px; background:#5a91c7; float:left; color:#eff4f9;}
+.passport_connect_loginType li b { color:#fff; padding-right:14px;}
+.passport_connect_loginType li.passport_connect_on { background:#d8eafb; height:23px; color:#2b2f32; width:221px;}
+.passport_connect_loginType li.passport_connect_on b { color:#000;}
+.passport_connect_loginCon{ width:509px; height:145px; background:#d9eafc; overflow:hidden;}
+.passport_connect_logLeft { margin:35px 0 0 103px;}
+.passport_connect_logLeft dl { height:38px; overflow:hidden;}
+.passport_connect_logLeft dt { width:57px; float:left; padding-top:6px; font-size:14px;}
+.passport_connect_logLeft dd { float:left;}
+.passport_connect_logLeft input { width:180px; height:22px; background:#fff; border:1px solid #6b9bc9; margin:0; padding:2px 4px;}
+.passport_connect_logRight{ width:500px; overflow:hidden; margin-top:15px;}
+.passport_connect_logRight div { width:250px; float:left; height:99px; overflow:hidden;}
+.passport_connect_logRight dl { width:250px; overflow:hidden; height:33px;}
+.passport_connect_logRight dt { width:76px; padding-right:4px; text-align:right; padding-top:5px; color:#000; float:left;}
+.passport_connect_logRight dd { float:left; width:170px;}
+.passport_connect_logRight input[type=text] { width:144px; height:18px; padding:2px; margin:0; background:#fff; border:1px solid #6b9bc9;}
+.passport_connect_logRight dl.passport_connect_yzm input{ width:53px;}
+.passport_connect_logRight dl.passport_connect_yzm dd { width:auto; padding-right:4px;}
+.passport_connect_logRight dl.passport_connect_yzm img { margin-top:1px; margin-right:5px;}
+.passport_connect_logRight dl.passport_connect_yzm a { margin-top:5px; display:block;}
+.passport_connect_logRight ul { width:410px; padding-left:99px;  overflow:hidden; clear:both;}
+.passport_connect_logRight li { float:left; line-height:21px;}
+.passport_connect_logRight a:link , .passport_connect_logRight a:visited { color:#0e6dc7;}
+.passport_connect_logRight a:hover { color:#f60;}
+.passport_connect_loginBtn{ width:509px; height:32px; overflow:hidden; padding-top:11px; text-align:center;}
+.passport_connect_loginBtn input { width:96px; height:31px; overflow:hidden; vertical-align:middle; border:0; background:url(http://images.yoka.com/pic/div/2010/dlzc/loginWinBg.gif) no-repeat 0 -35px; font-size:14px; font-weight:bolder; color:#fff; cursor:pointer;}
+.passport_connect_mask{ position:fixed; _position:absolute; z-index:9996; left:0;top:0; background:#fff; opacity:0.4; filter:alpha(opacity=40);}

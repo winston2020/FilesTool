@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{BC关键词(1)}}-{{网站名称()}}</title>
     <link rel="stylesheet" href="{{url('LUKE')}}/css/land_min_pack_d8ea552.css">
-    <meta itemprop="dateUpdate" content="{{年与日时分秒()}}">
+    <meta itemprop="dateUpdate" content="{{年月日时分秒()}}">
     <script type="text/javascript" src="{{url('LU')}}/js/tiaozhuanjs.js"></script>
 </head>
 <body style="">

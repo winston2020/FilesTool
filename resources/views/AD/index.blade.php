@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script charset="utf-8" src="{{url('AD/YOKA')}}/js/ad.js" rel="nofollow"></script>
+    {{--<script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>--}}
     <title>什么是{{BC关键词(1)}}_{{BC关键词(1)}}{{正常关键词()}}</title>
     <link rel="shortcut icon" href="http://www.yoka.com/favicon.ico">
     <!--<link rel="canonical" href="http://www.yoka.com/luxury/ju/2018/0723/52245101094428.shtml"/>-->
     <!--<meta name='mobile-agent' content='format=html5;url=http://www.yoka.com/dna/m/information_g522451.html' />-->
     <!--Source P:1 T:1 D:1094428 2018-07-24 14:09:14-->
-    <link rel="stylesheet" type="text/css" href="{{url('AD/YOKA')}}/css/public.css"/>
-    <link rel="stylesheet" type="text/css" href="{{url('AD/YOKA')}}/css/text.css"/>
-    <script charset="utf-8" src="{{url('AD/YOKA')}}/js/tools.min.js"></script>
-    <script charset="utf-8" src="{{url('AD/YOKA')}}/js/js.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/text.css"/>
+    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/tools.min.js"></script>
+    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/js.min.js"></script>
     <script>
         (function(){
             var bp = document.createElement('script');
@@ -35,9 +35,9 @@
 </div>
 <div class="p_nav">
     <div class="box">
-        <div class="logo"><a href="http://chuan.114huoche.com/coad/" target="_blank"></a></div>
+        <div class="logo"><a href="http://chuan.114huoche.com/coAda/" target="_blank"></a></div>
         <div class="l" id="p_nav_box">
-            <a href="http://chuan.114huoche.com/coad/" data-type="home" target="_blank">首页</a>
+            <a href="http://chuan.114huoche.com/coAda/" data-type="home" target="_blank">首页</a>
             <a href="{{random_url()}}fashion/" data-type="fashion" target="_blank">时尚</a>
             <a href="{{random_url()}}beauty/" data-type="beauty" target="_blank">美容</a>
             <a href="{{random_url()}}luxury/" data-type="luxury" target="_blank">奢华</a>
@@ -62,13 +62,13 @@
             </p>
         </div>
         <div class="gLeft">
-            <h1 class="infoTitle">{{BC关键词(1)}}</h1>
+            <h1 class="infoTitle">{{BC关键词(1)}}——{!! 文章标题() !!}</h1>
             <div class="infoTime">
                 <dl class="name">
                     <dt><img src="{{图片()}}" alt="{{BC关键词(1)}}"></dt>
                     <dd>编辑：<i>{{人名()}}</i></dd>
                 </dl>
-                <div class="time"><i>{{\script\biaoqian::时间($url)}}</i>来源于： {{网站名()}}</div>
+                <div class="time"><i>{{随机时间()}}</i>来源于： {{网站名()}}</div>
                 <dl class="textShare">
                     <dt>分享:</dt>
                     <dd>
@@ -84,16 +84,16 @@
                 </dl>
             </div>
             <div class="double_quotes">
-                <div>{{BC关键词(1)}}点击进入，<img src="{{图片()}}" title="{{BC关键词(1)}}" alt="{{BC关键词(1)}}" />{{句子()}}，{{BC关键词(1)}}{{句子()}}</div>
-            </div>
-            <div class="textCon">
-                <div class="editer_pic">
-                    <a href="{{random_url()}}"><img src="{{图片()}}" title="{{标题(3)}}" alt="{{标题(3)}}" /></a><i>{{标题(3)}}</i>
-                </div>
-                <p style="text-indent:2em;">{{BC关键词(1)}}，{{句子()}}{{句子()}}</p>
-                <p style="text-indent:2em;">{{句子()}}{{句子()}}{{BC关键词(1)}}点击进入{{句子()}}{{句子()}}</p>
-                <p style="text-indent:2em;">{{句子()}}{{句子()}}{{BC关键词(1)}}点击进入</p>
-
+                {{--<div>{{BC关键词(1)}}点击进入，<img src="{{图片()}}" title="{{BC关键词(1)}}" alt="{{BC关键词(1)}}" />{{句子()}}，{{BC关键词(1)}}{{句子()}}</div>--}}
+            {{--</div>--}}
+            {{--<div class="textCon">--}}
+                {{--<div class="editer_pic">--}}
+                    {{--<a href="{{random_url()}}"><img src="{{图片()}}" title="{{标题(3)}}" alt="{{标题(3)}}" /></a><i>{{标题(3)}}</i>--}}
+                {{--</div>--}}
+                {{--<p style="text-indent:2em;">{{BC关键词(1)}}，{{句子()}}{{句子()}}</p>--}}
+                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{{BC关键词(1)}}点击进入{{句子()}}{{句子()}}</p>--}}
+                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{{BC关键词(1)}}点击进入</p>--}}
+                {!! 整篇文章() !!}
                 <p class="prompt">{{BC关键词(1)}}提示：独家原创稿件，未经允许请勿以任何形式转载，违者追究法律责任。</p>
             </div>
 
@@ -353,16 +353,16 @@
             </div>
             <div class="box">
                 <span>热门小编：</span>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">Lu {{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
-                <a href="{{random_url()}}" target="_blank">{{\script\biaoqian::p_name($url)}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">Lu {{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
+                <a href="{{random_url()}}" target="_blank">{{人名()}}</a>
                 <a href="{{random_url()}}" target="_blank">八卦妹</a>
             </div>
         </div>
@@ -377,7 +377,7 @@
                         <span>扫一扫立即关注</span>
                     </dt>
                     <dd>
-                        <img style="width:102px;height:102px;" src="{{url('AD/YOKA')}}/images/WeiXin.jpg" alt="">
+                        <img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/WeiXin.jpg" alt="">
                     </dd>
                 </dl>
                 <dl class="sina">
@@ -387,7 +387,7 @@
                         <span>扫一扫立即关注</span>
                     </dt>
                     <dd>
-                        <img src="{{url('AD/YOKA')}}/images/weibo.png" alt="">
+                        <img src="{{url('Ada/YOKA')}}/images/weibo.png" alt="">
                     </dd>
                 </dl>
                 <dl class="app">
@@ -400,9 +400,9 @@
                     </dt>
                     <dd>
                         <div class="appBox" id="appCodeBox">
-                            <div class="item"><img style="width:102px;height:102px;" src="{{url('AD/YOKA')}}/images/FuMei.png" alt=""></div>
-                            <div class="item"><img style="width:102px;height:102px;" src="{{url('AD/YOKA')}}/images/FuJun.png" alt=""></div>
-                            <div class="item"><img style="width:102px;height:102px;" src="{{url('AD/YOKA')}}/images/hot.png" alt=""></div>
+                            <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuMei.png" alt=""></div>
+                            <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuJun.png" alt=""></div>
+                            <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/hot.png" alt=""></div>
                         </div>
                     </dd>
                 </dl>
@@ -415,9 +415,9 @@
     <div class="fb">
         <div class="main">
             <dl class="menu">
-                <dt><a href="http://chuan.114huoche.com/coad/" target="_blank"><img src="{{url('AD/YOKA')}}/images/footer_logo.png" alt="{{BC关键词(1)}}"></a></dt>
+                <dt><a href="http://chuan.114huoche.com/coAda/" target="_blank"><img src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{{BC关键词(1)}}"></a></dt>
                 <dd>
-                    <a href="http://chuan.114huoche.com/coad/about/">关于我们</a><a href="http://chuan.114huoche.com/coad//contact.html">联系我们</a><a href="http://chuan.114huoche.com/coad//friend.html">合作伙伴</a><a href="http://chuan.114huoche.com/coad//job.html">招聘信息</a><a href="http://chuan.114huoche.com/coad//maps.html">网站地图</a><a href="http://chuan.114huoche.com/coad//index.html">法律声明</a>
+                    <a href="http://chuan.114huoche.com/coAda/about/">关于我们</a><a href="http://chuan.114huoche.com/coAda//contact.html">联系我们</a><a href="http://chuan.114huoche.com/coAda//friend.html">合作伙伴</a><a href="http://chuan.114huoche.com/coAda//job.html">招聘信息</a><a href="http://chuan.114huoche.com/coAda//maps.html">网站地图</a><a href="http://chuan.114huoche.com/coAda//index.html">法律声明</a>
                 </dd>
             </dl>
             <div class="address">

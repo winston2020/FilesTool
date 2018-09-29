@@ -93,7 +93,13 @@ function 图片(){
     return getimg(Master().'/img');
 }
 
+function url1(){
+    return geturl(Master().'/url1');
+}
 
+function url2(){
+    return geturl(Master().'/url2');
+}
 
 
 
@@ -176,7 +182,7 @@ function getrandom($path = '/txt',$num = 0){
 
 function getkeywords($path,$num){
     $name = str_after($path,'/').$num;
-    $file = @fopen('bf/'.$name.'.txt','r');
+    $file = @fopen(Master().'/bf/'.$name.'.txt','r');
     if($file){
 //        dd($file);
         $boo = fgets($file);
@@ -187,7 +193,7 @@ function getkeywords($path,$num){
 
 function setkeywords($path,$num,$line){
     $name = str_after($path,'/').$num;
-    $file = @fopen('bf/'.$name.'.txt','at+');
+    $file = @fopen(Master().'/bf/'.$name.'.txt','at+');
     if($file){
         @fwrite($file,$line);
         fclose($file);
@@ -201,7 +207,11 @@ function setkeywords($path,$num,$line){
 function geturl($path = 'url'){ //随机生成URL
     $url = getrandom($path);
     if(strpos($url,'{数字4}') !== false){
-        return str_replace('{数字4}',rand(1000,9999),$url);
+        $url = str_replace('{数字4}',rand(1000,9999),$url);
+            if(strpos($url,'{数字5}') !== false){
+                $url = str_replace('{数字5}',rand(10000,99999),$url);
+            }
+        return $url;
     }elseif(strpos($url,'{数字5}') !== false){
         return str_replace('{数字5}',rand(10000,99999),$url);
     }
@@ -222,7 +232,7 @@ function gettitle($path = 'body'){
             $i++;
         }
         $num = rand(0,count($array)-1);
-        $max = strpos($array[$num],'#');
+        $max = strpos($array[$num],'<');
         $bt = substr($array[$num],0,$max);
         setbodytitle($path,$rand,$bt);
         fclose($file);
@@ -234,18 +244,22 @@ function gettitle($path = 'body'){
 function getallbody($path = 'body'){
     try{
        $files = Storage::files($path);
-       $btbf = @fopen('bf/body.txt','r');
+       $btbf = @fopen(Master().'/bf/txt.txt','r');
        if ($btbf){
            $line = fgets($btbf);
            $num = substr($line,0,1);
            $bt = substr($line,2);
+//           dd($bt);
            $file = @fopen($files[$num],'r');
            if ($file){
+               $i = 0;
                while (!feof($file)){
                    $body = fgets($file);
-                    if (strpos($body,$bt) !== false)
-                        $body = substr($body,strripos($body, '#')+1);
-                    return $body;
+
+                    if (strpos($body,$bt) !== false){
+                        return $body;
+                    }
+                $i++;
                }
            }
        }
@@ -259,7 +273,7 @@ function getallbody($path = 'body'){
 
 function setbodytitle($path = 'body',$num = 1,$line = 'demo'){
     $name = str_after($path,'/');
-    $file = @fopen('bf/'.$name.'.txt','at+');
+    $file = @fopen(Master().'/bf/'.$name.'.txt','at+');
     if($file){
         @fwrite($file,$num.'#'.$line);
         fclose($file);
@@ -271,13 +285,14 @@ function getimg($path = 'img'){
     if(!count($files) <= 0){
         $rand = rand(0,count($files)-1);
         $file = Storage::url($files[$rand]);
+        $file = str_replace('/storage','',$file);
         return $file;
     }
 }
 
 
 function clear(){  //清除备份文件
-    $files = Storage::files('bf');
+    $files = Storage::files(Master().'/bf');
     Storage::delete($files);
 }
 
