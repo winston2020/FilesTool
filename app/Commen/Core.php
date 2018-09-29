@@ -32,7 +32,7 @@ function 标题($num = 0){ //随机从标题库中获取一个标题，用于配
 }
 
 function 整篇文章(){ //从文章库中随机获取一篇文章,将以文章标题标签获取的标题寻找文章
-    return ;
+    return getallbody(Master().'/txt');
 }
 
 function 文章标题(){ //从整篇文章中截取到标题，用于配合整篇文章标签使用
@@ -70,7 +70,11 @@ function 过去时间($time){     //传入的参数：整数，代表想获取�
 }
 
 function random_url(){
-    return geturl();
+    return geturl(Master().'/url');
+}
+
+function 图片(){
+    return getimg(Master().'/img');
 }
 
 
@@ -252,7 +256,7 @@ function getallbody($path = 'body'){
                }
            }
        }
-        return getrandom($path); 
+        return getrandom($path);
     }catch (Exception $e){
         return getrandom($path);
     }
@@ -269,7 +273,12 @@ function setbodytitle($path = 'body',$num = 1,$line = 'demo'){
     }
 }
 
-
+function getimg($path = 'img'){
+    $files = Storage::files($path);
+    $rand = rand(0,count($files)-1);
+    $file = Storage::url($files[$rand]);
+    return $file;
+}
 
 
 function clear(){  //清除备份文件

@@ -1,1 +1,1 @@
-{{getallbody()}}
+{{getimg()}}
