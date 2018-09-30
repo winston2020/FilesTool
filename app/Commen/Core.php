@@ -101,7 +101,7 @@ function random_url()
 
 function 图片()
 {
-    return getimg(Master() . '/img');
+    return getimg('http://runzz.cn'.Master() . '/img');
 }
 
 function url1()
