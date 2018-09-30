@@ -31,16 +31,16 @@ function 标题($num = 0){ //随机从标题库中获取一个标题，用于配
     return getrandom(Master().'/biaoti',$num);
 }
 
-function 人名(){ //随机获取一个人名
-    return getrandom(Master().'/p_name');
+function 人名($num = 0){ //随机获取一个人名
+    return getrandom(Master().'/p_name',$num);
 }
 
-function 城市名(){ //随机获取一个人名
-    return getrandom(Master().'/city_name');
+function 城市名($num = 0){ //随机获取一个人名
+    return getrandom(Master().'/city_name',$num);
 }
 
-function 网站名(){ //随机获取一个人名
-    return getrandom(Master().'/web_name');
+function 网站名($num = 0){ //随机获取一个人名
+    return getrandom(Master().'/web_name',$num);
 }
 
 function 整篇文章(){ //从文章库中随机获取一篇文章,将以文章标题标签获取的标题寻找文章
@@ -67,6 +67,7 @@ function 随机时间(){        //获取三天内的随机时间,年-月-日 小
     return date("Y-m-d H:i:s", $timestamp);
 
 }
+
 function 随机日期(){        //获取三天内的随机时间,年-月-日
     $begintime = date('Y-m-d' , strtotime("-3 day"));
     $begin = strtotime($begintime);
@@ -76,16 +77,12 @@ function 随机日期(){        //获取三天内的随机时间,年-月-日
 
 }
 
-function 网站名称(){
-    return getrandom(Master().'/name');
-}
-
 function 过去时间($time){     //传入的参数：整数，代表想获取多少天前的时间,年-月-日 小时:分:秒
     return date('Y-m-d H:i:s' , strtotime("-".$time." day"));
 
 }
 
-function random_url(){
+function random_url(){      //{数字5}代表随机5位数字，例如：/AD2yp/{数字5}/{数字4}
     return geturl(Master().'/url');
 }
 
@@ -232,7 +229,7 @@ function gettitle($path = 'body'){
             $i++;
         }
         $num = rand(0,count($array)-1);
-        $max = strpos($array[$num],'<');
+        $max = strpos($array[$num],'#');
         $bt = substr($array[$num],0,$max);
         setbodytitle($path,$rand,$bt);
         fclose($file);

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    {{--<script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>--}}
+    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>
     <title>什么是{{BC关键词(1)}}_{{BC关键词(1)}}{{正常关键词()}}</title>
     <link rel="shortcut icon" href="http://www.yoka.com/favicon.ico">
     <!--<link rel="canonical" href="http://www.yoka.com/luxury/ju/2018/0723/52245101094428.shtml"/>-->
