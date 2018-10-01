@@ -35,9 +35,9 @@
 </div>
 <div class="p_nav">
     <div class="box">
-        <div class="logo"><a href="http://chuan.114huoche.com/coAda/" target="_blank"></a></div>
+        <div class="logo"><a href="http://www.dianmi.net/clu/ad/" target="_blank"></a></div>
         <div class="l" id="p_nav_box">
-            <a href="http://chuan.114huoche.com/coAda/" data-type="home" target="_blank">首页</a>
+            <a href="http://www.dianmi.net/clu/ad/" data-type="home" target="_blank">首页</a>
             <a href="{{random_url()}}fashion/" data-type="fashion" target="_blank">时尚</a>
             <a href="{{random_url()}}beauty/" data-type="beauty" target="_blank">美容</a>
             <a href="{{random_url()}}luxury/" data-type="luxury" target="_blank">奢华</a>
@@ -400,7 +400,7 @@
                     </dt>
                     <dd>
                         <div class="appBox" id="appCodeBox">
-                            <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuMei.png" alt=""></div>
+                            <div class="item on"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuMei.png" alt=""></div>
                             <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuJun.png" alt=""></div>
                             <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/hot.png" alt=""></div>
                         </div>
@@ -415,9 +415,9 @@
     <div class="fb">
         <div class="main">
             <dl class="menu">
-                <dt><a href="http://chuan.114huoche.com/coAda/" target="_blank"><img src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{{BC关键词(1)}}"></a></dt>
+                <dt><a href="http://www.dianmi.net/clu/ad/" target="_blank"><img src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{{BC关键词(1)}}"></a></dt>
                 <dd>
-                    <a href="http://chuan.114huoche.com/coAda/about/">关于我们</a><a href="http://chuan.114huoche.com/coAda//contact.html">联系我们</a><a href="http://chuan.114huoche.com/coAda//friend.html">合作伙伴</a><a href="http://chuan.114huoche.com/coAda//job.html">招聘信息</a><a href="http://chuan.114huoche.com/coAda//maps.html">网站地图</a><a href="http://chuan.114huoche.com/coAda//index.html">法律声明</a>
+                    <a href="http://www.dianmi.net/clu/ad/about/">关于我们</a><a href="http://www.dianmi.net/clu/ad//contact.html">联系我们</a><a href="http://www.dianmi.net/clu/ad//friend.html">合作伙伴</a><a href="http://www.dianmi.net/clu/ad//job.html">招聘信息</a><a href="http://www.dianmi.net/clu/ad//maps.html">网站地图</a><a href="http://www.dianmi.net/clu/ad//index.html">法律声明</a>
                 </dd>
             </dl>
             <div class="address">
