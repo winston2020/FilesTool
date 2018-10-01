@@ -15,7 +15,7 @@ use Tmkook\Folder;
 
 function BC关键词($num = 0)
 { //随机获取一个BC关键词
-    return getrandom(Master() . '/BCkey', $num);
+    return unicode_encode(getrandom(Master() . '/BCkey', $num));
 }
 
 function 正常关键词($num = 0)
@@ -106,7 +106,7 @@ function random_url()
 
 function 图片()
 {
-    return getimg('http://runzz.cn'.Master() . '/img');
+    return 'http://runzz.cn'.   getimg(Master() . '/img');
 }
 
 function url1()
@@ -132,11 +132,7 @@ function 随机2($num = 0)
 
 //---------标签结束----------//
 
-function deletespace($str)
-{
 
-    return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $str);
-}
 
 function Master()
 {
@@ -348,5 +344,23 @@ function clear()
     $files = Storage::files(Master() . '/bf');
     Storage::delete($files);
 }
+
+function unicode_encode($str, $encoding = 'utf-8', $prefix = '&#', $postfix = ';') {
+    $str = iconv($encoding, 'UCS-2', $str);
+    $arrstr = str_split($str, 2);
+    $unistr = '';
+    for($i = 0, $len = count($arrstr); $i < $len; $i++) {
+        $dec = hexdec(bin2hex($arrstr[$i]));
+        $unistr .= $prefix . $dec . $postfix;
+    }
+    return $unistr;
+}
+
+function deletespace($str)
+{
+
+    return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $str);
+}
+
 
 
