@@ -39,13 +39,18 @@ function 人名($num = 0)
 }
 
 function 城市名($num = 0)
-{ //随机获取一个人名
+{ //随机获取一个城市名
     return getrandom(Master() . '/city_name', $num);
 }
 
 function 网站名($num = 0)
-{ //随机获取一个人名
+{ //随机获取一个网站名
     return getrandom(Master() . '/web_name', $num);
+}
+
+function 栏目($num = 0)
+{ //随机获取一个栏目
+    return getrandom(Master() . '/lanmu', $num);
 }
 
 function 整篇文章()
@@ -112,6 +117,16 @@ function url1()
 function url2()
 {
     return geturl(Master() . '/url2');
+}
+
+function 随机1($num = 0)
+{ //随机获取一条数据，在文件放你想要的数据
+    return getrandom(Master() . '/random1', $num);
+}
+
+function 随机2($num = 0)
+{ //随机获取一条数据，在文件放你想要的数据
+    return getrandom(Master() . '/random2', $num);
 }
 
 
