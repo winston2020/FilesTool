@@ -101,7 +101,7 @@ function random_url()
 
 function 图片()
 {
-    return 'http://runzz.cn'.getimg(Master() . '/img');
+    return getimg('http://runzz.cn'.Master() . '/img');
 }
 
 function url1()
@@ -117,6 +117,11 @@ function url2()
 
 //---------标签结束----------//
 
+function deletespace($str)
+{
+
+    return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $str);
+}
 
 function Master()
 {
@@ -175,7 +180,7 @@ function getrandom($path = '/txt', $num = 0)
             return $line;
         }
 
-        return $array[$rand]; //返回一行
+        return deletespace($array[$rand]); //返回一行
 
     }
 //  若文件出错将不会返回任何,以免程序崩溃
@@ -191,7 +196,7 @@ function getkeywords($path, $num)
 //        dd($file);
         $boo = fgets($file);
         @fclose($file);
-        return $boo;
+        return deletespace($boo);
     }
 }
 
@@ -249,15 +254,23 @@ function getallbody($path = 'body')
                     $body = fgets($file);
 
                     if (strpos($body, $bt) !== false) {
+                        $num = strripos($body,'#');
+                        $body = substr($body,$num+1);
                         return $body;
                     }
                     $i++;
                 }
             }
         }
-        return getrandom($path);
+        $body = getrandom($path);
+        $num = strripos($body,'#');
+        $body = substr($body,$num+1);
+        return $body;
     } catch (Exception $e) {
-        return getrandom($path);
+        $body = getrandom($path);
+        $num = strripos($body,'#');
+        $body = substr($body,$num+1);
+        return $body;
     }
 }
 
