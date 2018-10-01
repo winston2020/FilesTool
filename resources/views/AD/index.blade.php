@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>
-    <title>什么是{{BC关键词(1)}}_{{BC关键词(1)}}{{正常关键词()}}</title>
+    <title>什么是{!! BC关键词(1) !!}_{!! BC关键词(1) !!}{{正常关键词()}}</title>
     <link rel="shortcut icon" href="http://www.yoka.com/favicon.ico">
-    <!--<link rel="canonical" href="http://www.yoka.com/luxury/ju/2018/0723/52245101094428.shtml"/>-->
-    <!--<meta name='mobile-agent' content='format=html5;url=http://www.yoka.com/dna/m/information_g522451.html' />-->
-    <!--Source P:1 T:1 D:1094428 2018-07-24 14:09:14-->
     <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/public.css"/>
     <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/text.css"/>
+    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>
     <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/tools.min.js"></script>
     <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/js.min.js"></script>
     <script>
@@ -62,10 +59,10 @@
             </p>
         </div>
         <div class="gLeft">
-            <h1 class="infoTitle">{{BC关键词(1)}}——{!! 文章标题() !!}</h1>
+            <h1 class="infoTitle">{!! BC关键词(1) !!}——{!! 文章标题() !!}</h1>
             <div class="infoTime">
                 <dl class="name">
-                    <dt><img src="{{图片()}}" alt="{{BC关键词(1)}}"></dt>
+                    <dt><img src="{{图片()}}" alt="{!! BC关键词(1) !!}"></dt>
                     <dd>编辑：<i>{{人名()}}</i></dd>
                 </dl>
                 <div class="time"><i>{{随机时间()}}</i>来源于： {{网站名()}}</div>
@@ -84,17 +81,17 @@
                 </dl>
             </div>
             <div class="double_quotes">
-                {{--<div>{{BC关键词(1)}}点击进入，<img src="{{图片()}}" title="{{BC关键词(1)}}" alt="{{BC关键词(1)}}" />{{句子()}}，{{BC关键词(1)}}{{句子()}}</div>--}}
+                {{--<div>{!! BC关键词(1) !!}点击进入，<img src="{{图片()}}" title="{!! BC关键词(1) !!}" alt="{!! BC关键词(1) !!}" />{{句子()}}，{!! BC关键词(1) !!}{{句子()}}</div>--}}
             {{--</div>--}}
             {{--<div class="textCon">--}}
                 {{--<div class="editer_pic">--}}
                     {{--<a href="{{random_url()}}"><img src="{{图片()}}" title="{{标题(3)}}" alt="{{标题(3)}}" /></a><i>{{标题(3)}}</i>--}}
                 {{--</div>--}}
-                {{--<p style="text-indent:2em;">{{BC关键词(1)}}，{{句子()}}{{句子()}}</p>--}}
-                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{{BC关键词(1)}}点击进入{{句子()}}{{句子()}}</p>--}}
-                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{{BC关键词(1)}}点击进入</p>--}}
-                {!! 整篇文章() !!}
-                <p class="prompt">{{BC关键词(1)}}提示：独家原创稿件，未经允许请勿以任何形式转载，违者追究法律责任。</p>
+                {{--<p style="text-indent:2em;">{!! BC关键词(1) !!}，{{句子()}}{{句子()}}</p>--}}
+                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入{{句子()}}{{句子()}}</p>--}}
+                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入</p>--}}
+                {!! BC关键词(1) !!}{!! 整篇文章() !!}{!! BC关键词(1) !!}
+                <p class="prompt">{!! BC关键词(1) !!}提示：独家原创稿件，未经允许请勿以任何形式转载，违者追究法律责任。</p>
             </div>
 
             <dl class="pages_fullRead">
@@ -127,12 +124,12 @@
             </dl>
             <div class="relatedRead">
                 <dl class="readT">
-                    <dt><a href="{{random_url()}}" target="_blank"><img src="{{图片()}}" alt="{{BC关键词(1)}}"></a></dt>
+                    <dt><a href="{{random_url()}}" target="_blank"><img src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
                     <dd>
                         <ul>
                             <li>
                                 <span>2017/8/25 22:40:11</span>
-                                <p><a href="{{random_url()}}" target="_blank">{{BC关键词(1)}}{{标题()}}</a></p>
+                                <p><a href="{{random_url()}}" target="_blank">{!! BC关键词(1) !!}{{标题()}}</a></p>
                             </li>
                             <li>
                                 <span>2017/8/25 20:49:07</span>
@@ -254,8 +251,8 @@
             </dl>
             <div class="bbs_marrow">
                 <dl>
-                    <dt><a href="{{random_url()}}l" target="_blank"><img src="{{图片()}}" alt="{{BC关键词(1)}}"></a></dt>
-                    <dd>{{BC关键词(1)}}</dd>
+                    <dt><a href="{{random_url()}}l" target="_blank"><img src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
+                    <dd>{!! BC关键词(1) !!}</dd>
                 </dl>
             </div>
             <div class="right_fixed" id="right_fixed">
@@ -415,7 +412,7 @@
     <div class="fb">
         <div class="main">
             <dl class="menu">
-                <dt><a href="http://www.dianmi.net/clu/ad/" target="_blank"><img src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{{BC关键词(1)}}"></a></dt>
+                <dt><a href="http://www.dianmi.net/clu/ad/" target="_blank"><img src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{!! BC关键词(1) !!}"></a></dt>
                 <dd>
                     <a href="http://www.dianmi.net/clu/ad/about/">关于我们</a><a href="http://www.dianmi.net/clu/ad//contact.html">联系我们</a><a href="http://www.dianmi.net/clu/ad//friend.html">合作伙伴</a><a href="http://www.dianmi.net/clu/ad//job.html">招聘信息</a><a href="http://www.dianmi.net/clu/ad//maps.html">网站地图</a><a href="http://www.dianmi.net/clu/ad//index.html">法律声明</a>
                 </dd>
