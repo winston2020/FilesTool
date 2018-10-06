@@ -33,9 +33,9 @@
 </div>
 <div class="p_nav">
     <div class="box">
-        <div class="logo"><a href="http://qiche.114huoche.com/clu/ad/" target="_blank"></a></div>
+        <div class="logo"><a href="http://www.61k.com/cluad/" target="_blank"></a></div>
         <div class="l" id="p_nav_box">
-            <a href="http://qiche.114huoche.com/clu/ad/" data-type="home" target="_blank">首页</a>
+            <a href="http://www.61k.com/cluad/" data-type="home" target="_blank">首页</a>
             <a href="{{random_url()}}fashion/" data-type="fashion" target="_blank">时尚</a>
             <a href="{{random_url()}}beauty/" data-type="beauty" target="_blank">美容</a>
             <a href="{{random_url()}}luxury/" data-type="luxury" target="_blank">奢华</a>
@@ -413,9 +413,9 @@
     <div class="fb">
         <div class="main">
             <dl class="menu">
-                <dt><a href="http://qiche.114huoche.com/clu/ad/" target="_blank"><img style="width: 360px;height: 220px" src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{!! BC关键词(1) !!}"></a></dt>
+                <dt><a href="http://www.61k.com/cluad/" target="_blank"><img style="width: 360px;height: 220px" src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{!! BC关键词(1) !!}"></a></dt>
                 <dd>
-                    <a href="http://qiche.114huoche.com/clu/ad/about/">关于我们</a><a href="http://qiche.114huoche.com/clu/ad/contact.html">联系我们</a><a href="http://qiche.114huoche.com/clu/ad//friend.html">合作伙伴</a><a href="http://qiche.114huoche.com/clu/ad/job.html">招聘信息</a><a href="http://qiche.114huoche.com/clu/ad/maps.html">网站地图</a><a href="http://qiche.114huoche.com/clu/ad/index.html">法律声明</a>
+                    <a href="http://www.61k.com/cluad/about/">关于我们</a><a href="http://www.61k.com/cluad/contact.html">联系我们</a><a href="http://www.61k.com/cluad//friend.html">合作伙伴</a><a href="http://www.61k.com/cluad/job.html">招聘信息</a><a href="http://www.61k.com/cluad/maps.html">网站地图</a><a href="http://www.61k.com/cluad/index.html">法律声明</a>
                 </dd>
             </dl>
             <div class="address">
