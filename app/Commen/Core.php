@@ -212,8 +212,11 @@ function zimu($url)
 function givezimu($num)
 {
     $zimu = '';
+
     for ($i = 0; $i <= $num; $i++) {
-        $str = rand(1,3)<rand(2,4)?chr(65,90):chr(97,122);
+        $one = rand(65,90);
+        $two = rand(97,122);
+        $str = rand(1,3)<rand(2,4)?chr($one):chr($two);
         $zimu = $zimu . $str;
     }
     return $zimu;

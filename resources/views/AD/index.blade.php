@@ -36,17 +36,17 @@
         <div class="logo"><a href="http://www.61k.com/cluad/" target="_blank"></a></div>
         <div class="l" id="p_nav_box">
             <a href="http://www.61k.com/cluad/" data-type="home" target="_blank">首页</a>
-            <a href="{{random_url()}}fashion/" data-type="fashion" target="_blank">时尚</a>
-            <a href="{{random_url()}}beauty/" data-type="beauty" target="_blank">美容</a>
-            <a href="{{random_url()}}luxury/" data-type="luxury" target="_blank">奢华</a>
-            <a href="{{random_url()}}star/" data-type="star" target="_blank">明星</a>
-            <a href="{{random_url()}}life/" data-type="life" target="_blank">乐活</a>
-            <a href="{{random_url()}}man/" data-type="men" target="_blank">男士</a>
-            <a href="{{random_url()}}video/" data-type="video" target="_blank">视频</a>
-            <a href="{{random_url()}}dj/" data-type="yoka_z" target="_blank">独家</a>
-            <a href="{{random_url()}}bbs/" data-type="bbs" target="_blank">社区</a>
-            <a href="{{random_url()}}nov/" data-type="brand" target="_blank">品牌</a>
-            <a href="{{random_url()}}news/index.html" target="_blank">资讯</a>
+            <a href="http://www.61k.com/cluad/fashion/" data-type="fashion" target="_blank">时尚</a>
+            <a href="http://www.61k.com/cluad/beauty/" data-type="beauty" target="_blank">美容</a>
+            <a href="http://www.61k.com/cluad/luxury/" data-type="luxury" target="_blank">奢华</a>
+            <a href="http://www.61k.com/cluad/star/" data-type="star" target="_blank">明星</a>
+            <a href="http://www.61k.com/cluad/life/" data-type="life" target="_blank">乐活</a>
+            <a href="http://www.61k.com/cluad/man/" data-type="men" target="_blank">男士</a>
+            <a href="http://www.61k.com/cluad/video/" data-type="video" target="_blank">视频</a>
+            <a href="http://www.61k.com/cluad/dj/" data-type="yoka_z" target="_blank">独家</a>
+            <a href="http://www.61k.com/cluad/bbs/" data-type="bbs" target="_blank">社区</a>
+            <a href="http://www.61k.com/cluad/nov/" data-type="brand" target="_blank">品牌</a>
+            <a href="http://www.61k.com/cluad/news/index.html" target="_blank">资讯</a>
         </div>
         <div class="r" id="navHtml"></div>
     </div>
