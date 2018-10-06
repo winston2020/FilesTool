@@ -27,7 +27,8 @@
             "App\\": "app/"
         },
         "files":[
-            "app/Commen/Core.php"
+            "app/Commen/Core.php",
+            "app/Commen/Label.php"
         ]
     },
     "autoload-dev": {

@@ -15,6 +15,7 @@ use Tmkook\Folder;
 
 function Master()
 {
+
     $url = Input::path();
     if (strpos($url, 'cluGG') !== false || strpos($url, 'clugg') !== false) {
         return 'George';

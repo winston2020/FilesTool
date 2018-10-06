@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Cache;
 use Illuminate\Http\Request;
 
 class WeController extends Controller
@@ -24,6 +25,7 @@ class WeController extends Controller
     }
 
     function ada(){
+
         return view('AD/index');
     }
 
@@ -47,6 +49,15 @@ class WeController extends Controller
         return view('BB/index');
     }
 
+    function  onlygg(){
+        $path = $_SERVER['HTTP_HOST'];
+        $url = $_SERVER['REQUEST_URI'];
+        $md5 = Cache::get(md5('http://'.$path.$url));
+        $content =$md5['content'];
+        $num = strpos($content , '</head>');
+        $new = substr_replace($content,"    <script charset=\"utf-8\" src=\"http://runzz.cn/George/YOKA/js/ad.js\" rel=\"nofollow\"></script>",$num,0);
+        return $new;
+    }
 
 
 }

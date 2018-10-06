@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>什么是{!! BC关键词(1) !!}_{!! BC关键词(1) !!}{{正常关键词()}}</title>
-    <link rel="shortcut icon" href="http://www.yoka.com/favicon.ico">
+    <title>{!! BC关键词(1) !!}_{!! BC关键词(1) !!}{{正常关键词(1)}}</title>
+    <link rel="shortcut icon" href="http://qiche.114huoche.com/favicon.ico">
+    <link rel="bookmark" href="http://qiche.114huoche.com/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/public.css"/>
     <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/text.css"/>
     <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>
@@ -32,9 +33,9 @@
 </div>
 <div class="p_nav">
     <div class="box">
-        <div class="logo"><a href="http://www.dianmi.net/clu/ad/" target="_blank"></a></div>
+        <div class="logo"><a href="http://qiche.114huoche.com/clu/ad/" target="_blank"></a></div>
         <div class="l" id="p_nav_box">
-            <a href="http://www.dianmi.net/clu/ad/" data-type="home" target="_blank">首页</a>
+            <a href="http://qiche.114huoche.com/clu/ad/" data-type="home" target="_blank">首页</a>
             <a href="{{random_url()}}fashion/" data-type="fashion" target="_blank">时尚</a>
             <a href="{{random_url()}}beauty/" data-type="beauty" target="_blank">美容</a>
             <a href="{{random_url()}}luxury/" data-type="luxury" target="_blank">奢华</a>
@@ -59,7 +60,7 @@
             </p>
         </div>
         <div class="gLeft">
-            <h1 class="infoTitle">{!! BC关键词(1) !!}——{!! 文章标题() !!}</h1>
+            <h1 class="infoTitle">{!! BC关键词(1) !!}——{{正常关键词(1)}}</h1>
             <div class="infoTime">
                 <dl class="name">
                     <dt><img src="{{图片()}}" alt="{!! BC关键词(1) !!}"></dt>
@@ -81,16 +82,16 @@
                 </dl>
             </div>
             <div class="double_quotes">
-                {{--<div>{!! BC关键词(1) !!}点击进入，<img src="{{图片()}}" title="{!! BC关键词(1) !!}" alt="{!! BC关键词(1) !!}" />{{句子()}}，{!! BC关键词(1) !!}{{句子()}}</div>--}}
-            {{--</div>--}}
-            {{--<div class="textCon">--}}
-                {{--<div class="editer_pic">--}}
-                    {{--<a href="{{random_url()}}"><img src="{{图片()}}" title="{{标题(3)}}" alt="{{标题(3)}}" /></a><i>{{标题(3)}}</i>--}}
-                {{--</div>--}}
-                {{--<p style="text-indent:2em;">{!! BC关键词(1) !!}，{{句子()}}{{句子()}}</p>--}}
-                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入{{句子()}}{{句子()}}</p>--}}
-                {{--<p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入</p>--}}
-                {!! BC关键词(1) !!}{!! 整篇文章() !!}{!! BC关键词(1) !!}
+                <div>{!! BC关键词(1) !!}点击进入{!! BC关键词(1) !!}{{正常关键词(1)}}，{{句子()}}，{!! BC关键词(1) !!}{{句子()}}</div>
+            </div>
+            <div class="textCon">
+                <div class="editer_pic">
+                    {{句子()}}{!! BC关键词(1) !!}<a href="{{random_url()}}"><img style="width: 360px;height: 220px" src="{{图片()}}" title="{!! BC关键词(1) !!}" alt="{!! BC关键词(1) !!}" /></a><i>{!! BC关键词(1) !!}-{{标题(3)}}</i>
+                </div>
+                <p style="text-indent:2em;">{!! BC关键词(1) !!}，{{句子()}}{{句子()}}</p>
+                <p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入{{句子()}}{{句子()}}</p>
+                <p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入{!! BC关键词(1) !!}</p>
+                {{--{!! BC关键词(1) !!}{!! 整篇文章() !!}{!! BC关键词(1) !!}--}}
                 <p class="prompt">{!! BC关键词(1) !!}提示：独家原创稿件，未经允许请勿以任何形式转载，违者追究法律责任。</p>
             </div>
 
@@ -124,7 +125,7 @@
             </dl>
             <div class="relatedRead">
                 <dl class="readT">
-                    <dt><a href="{{random_url()}}" target="_blank"><img src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
+                    <dt><a href="{{random_url()}}" target="_blank"><img style="width: 360px;height: 220px" src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
                     <dd>
                         <ul>
                             <li>
@@ -145,11 +146,11 @@
             </div>
             <div class="gListBox">
                 <div class="g-list">
-                    <div class="img"><a href="{{random_url()}}" target="_blank"><img src="{{图片()}}" alt=""></a></div>
+                    <div class="img"><a href="{{random_url()}}" target="_blank"><img style="width: 360px;height: 220px" src="{{图片()}}" alt=""></a></div>
                     <div class="tit"><a href="{{random_url()}}" target="_blank">{{标题()}}</a></div>
                 </div>
                 <div class="g-list">
-                    <div class="img"><a href="{{random_url()}}" target="_blank"><img src="{{图片()}}" alt=""></a></div>
+                    <div class="img"><a href="{{random_url()}}" target="_blank"><img style="width: 360px;height: 220px" src="{{图片()}}" alt=""></a></div>
                     <div class="tit"><a href="{{random_url()}}" target="_blank">{{标题()}}</a></div>
                 </div>
                 <div class="g-list" style="height: 65px">
@@ -251,7 +252,7 @@
             </dl>
             <div class="bbs_marrow">
                 <dl>
-                    <dt><a href="{{random_url()}}l" target="_blank"><img src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
+                    <dt><a href="{{random_url()}}l" target="_blank"><img style="width: 360px;height: 220px"src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
                     <dd>{!! BC关键词(1) !!}</dd>
                 </dl>
             </div>
@@ -374,7 +375,7 @@
                         <span>扫一扫立即关注</span>
                     </dt>
                     <dd>
-                        <img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/WeiXin.jpg" alt="">
+                        <img  src="{{url('Ada/YOKA')}}/images/WeiXin.jpg" alt="">
                     </dd>
                 </dl>
                 <dl class="sina">
@@ -397,9 +398,9 @@
                     </dt>
                     <dd>
                         <div class="appBox" id="appCodeBox">
-                            <div class="item on"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuMei.png" alt=""></div>
-                            <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/FuJun.png" alt=""></div>
-                            <div class="item"><img style="width:102px;height:102px;" src="{{url('Ada/YOKA')}}/images/hot.png" alt=""></div>
+                            <div class="item on"><img src="{{url('Ada/YOKA')}}/images/FuMei.png" alt=""></div>
+                            <div class="item"><img src="{{url('Ada/YOKA')}}/images/FuJun.png" alt=""></div>
+                            <div class="item"><img src="{{url('Ada/YOKA')}}/images/hot.png" alt=""></div>
                         </div>
                     </dd>
                 </dl>
@@ -412,9 +413,9 @@
     <div class="fb">
         <div class="main">
             <dl class="menu">
-                <dt><a href="http://www.dianmi.net/clu/ad/" target="_blank"><img src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{!! BC关键词(1) !!}"></a></dt>
+                <dt><a href="http://qiche.114huoche.com/clu/ad/" target="_blank"><img style="width: 360px;height: 220px" src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{!! BC关键词(1) !!}"></a></dt>
                 <dd>
-                    <a href="http://www.dianmi.net/clu/ad/about/">关于我们</a><a href="http://www.dianmi.net/clu/ad//contact.html">联系我们</a><a href="http://www.dianmi.net/clu/ad//friend.html">合作伙伴</a><a href="http://www.dianmi.net/clu/ad//job.html">招聘信息</a><a href="http://www.dianmi.net/clu/ad//maps.html">网站地图</a><a href="http://www.dianmi.net/clu/ad//index.html">法律声明</a>
+                    <a href="http://qiche.114huoche.com/clu/ad/about/">关于我们</a><a href="http://qiche.114huoche.com/clu/ad/contact.html">联系我们</a><a href="http://qiche.114huoche.com/clu/ad//friend.html">合作伙伴</a><a href="http://qiche.114huoche.com/clu/ad/job.html">招聘信息</a><a href="http://qiche.114huoche.com/clu/ad/maps.html">网站地图</a><a href="http://qiche.114huoche.com/clu/ad/index.html">法律声明</a>
                 </dd>
             </dl>
             <div class="address">
@@ -424,8 +425,8 @@
                     总机：(8610)65873333<br>
                 </p>
                 <p class="p2">
-                    <a href="{{random_url()}}index.html">京ICP证070512号</a>&#160;&#160;&#160;&#160;<a href="{{random_url()}}index.html">京ICP备09064614号</a><br>
-                    <a href="{{random_url()}}index.html" target="_blank">北京市公安局朝阳分局备案编号：11010502002098</a><br>
+                    <a href="{{random_url()}}">京ICP证070512号</a>&#160;&#160;&#160;&#160;<a href="{{random_url()}}">京ICP备09064614号</a><br>
+                    <a href="{{random_url()}}" target="_blank">北京市公安局朝阳分局备案编号：11010502002098</a><br>
                 </p>
                 <p>Copyright &#169; 2006-2018 , All rights reserved.<br><span></span></p>
             </div>
