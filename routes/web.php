@@ -12,110 +12,254 @@
 */
 
 
+//dd(Illuminate\Support\Facades\Input::path());
 
-Route::get('/', 'WeController@index');
+Route::get('/', 'WeController@no');
+function checkrobot($useragent=''){
+    static $kw_spiders = array('bot', 'crawl', 'spider' ,'slurp', 'sohu-search', 'lycos', 'robozilla');
+    static $kw_browsers = array('msie', 'netscape', 'opera', 'konqueror', 'mozilla');
+
+    $useragent = strtolower(empty($useragent) ? $_SERVER['HTTP_USER_AGENT'] : $useragent);
+    if(strpos($useragent, 'http://') === false && dstrpos($useragent, $kw_browsers)) return false;
+    if(dstrpos($useragent, $kw_spiders)) return true;
+    return false;
+}
+function dstrpos($string, $arr, $returnvalue = false) {
+    if(empty($string)) return false;
+    foreach((array)$arr as $v) {
+        if(strpos($string, $v) !== false) {
+            $return = $returnvalue ? $v : true;
+            return $return;
+        }
+    }
+    return false;
+}
 
 
-Route::get('cluggvp/2018092716wh.html','WeController@onlygg');
-Route::get('cluggby/20180927oxqa.html','WeController@onlygg');
-Route::get('cluggu6/20180927qpde.html','WeController@onlygg');
-Route::get('cluggjq/20180927ocm1.html','WeController@onlygg');
-Route::get('cluggvp/20180927eowl.html','WeController@onlygg');
-Route::get('cluggwr/20180927ro0c.html','WeController@onlygg');
+function pd(){
+    try{
+        $RUrl = $_SERVER ['HTTP_REFERER'];
+    }catch (Exception $exception){
+        $RUrl = null;
+    }
+    if(checkrobot()){
+        return true;
+    }else{
+        if (! empty ( $RUrl )) {
+            $UArray = parse_url($RUrl);
+            $UHost = $UArray ['host'];
+            switch ($UHost) {
+                case 'www.baidu.com' :
+                    return true;
+                    break;
+                case 'www.google.com' :
+                    return true;
+                    break;
+                case 'www.sogou.com' :
+                    return true;
+                    break;
+                case 'm.sm.cn':
+                    return true;
+                    break;
+                case 'm.baidu.com':
+                    return true;
+                    break;
+                default :
+                    return false;
+                    break;
+            }
+        }
+    }
 
-//-------------LUKE---------------//
-Route::get('cluLK','WeController@luke')->middleware('cache.response:525600');
-Route::get('cluLK{one}','WeController@luke')->middleware('cache.response:525600');
-Route::get('cluLK{one}/{two}','WeController@luke')->middleware('cache.response:525600');
-Route::get('cluLK{one}/{two}/{three}','WeController@luke')->middleware('cache.response:525600');
-Route::get('clulk','WeController@luke')->middleware('cache.response:525600');
-Route::get('clulk{one}','WeController@luke')->middleware('cache.response:525600');
-Route::get('clulk{one}/{two}','WeController@luke')->middleware('cache.response:525600');
-Route::get('clulk{one}/{two}/{three}','WeController@luke')->middleware('cache.response:525600');
+}
+
+
+
+
+$pand = pd();
+
+
+
+
+if($pand == true){
+
+    //-------------LUKE---------------//
+    Route::get('clu/LK','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK{one}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK/{one}/','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK/{one}/{two}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK/{one}/{two}/{three}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK{one}/{two}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK{one}/{two}/{three}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/LK{one}/{two}/{three}/{four}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk{one}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk/{one}/','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk/{one}/{two}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk/{one}/{two}/{three}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk{one}/{two}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk{one}/{two}/{three}','WeController@luke')->middleware('cache.response:525600');
+    Route::get('clu/lk{one}/{two}/{three}/{four}','WeController@luke')->middleware('cache.response:525600');
 
 //-------------George---------------//
-Route::get('cluGG','WeController@george')->middleware('cache.response:525600');
-Route::get('cluGG{one}','WeController@george')->middleware('cache.response:525600');
-Route::get('cluGG{one}/{two}','WeController@george')->middleware('cache.response:525600');
-Route::get('cluGG{one}/{two}/{three}','WeController@george')->middleware('cache.response:525600');
-Route::get('clugg','WeController@george')->middleware('cache.response:525600');
-Route::get('clugg{one}','WeController@george')->middleware('cache.response:525600');
-Route::get('clugg{one}/{two}','WeController@george')->middleware('cache.response:525600');
-Route::get('clugg{one}/{two}/{three}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG{one}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG/{one}/','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG/{one}/{two}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG/{one}/{two}/{three}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG{one}/{two}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG{one}/{two}/{three}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/GG{one}/{two}/{three}/{four}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg{one}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg/{one}/','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg/{one}/{two}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg/{one}/{two}/{three}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg{one}/{two}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg{one}/{two}/{three}','WeController@george')->middleware('cache.response:525600');
+    Route::get('clu/gg{one}/{two}/{three}/{four}','WeController@george')->middleware('cache.response:525600');
 
 //-------------Arvin---------------//
-Route::get('cluAV','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluAV{one}','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluAV{one}/{two}','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluAV{one}/{two}/{three}','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluav','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluav{one}','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluav{one}/{two}','WeController@arvin')->middleware('cache.response:525600');
-Route::get('cluav{one}/{two}/{three}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV{one}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV/{one}/','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV/{one}/{two}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV/{one}/{two}/{three}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV{one}/{two}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV{one}/{two}/{three}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/AV{one}/{two}/{three}/{four}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av{one}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av/{one}/','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av/{one}/{two}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av/{one}/{two}/{three}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av{one}/{two}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av{one}/{two}/{three}','WeController@arvin')->middleware('cache.response:525600');
+    Route::get('clu/av{one}/{two}/{three}/{four}','WeController@arvin')->middleware('cache.response:525600');
 
 //-------------Ada---------------//
-Route::get('cluAD{one}','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluAD','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluAD{one}/{two}','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluAD{one}/{two}/{three}','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluad{one}','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluad','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluad{one}/{two}','WeController@ada')->middleware('cache.response:525600');
-Route::get('cluad{one}/{two}/{three}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD{one}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD/{one}/','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD/{one}/{two}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD/{one}/{two}/{three}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD{one}/{two}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD{one}/{two}/{three}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/AD{one}/{two}/{three}/{four}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad{one}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad/{one}/','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad/{one}/{two}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad/{one}/{two}/{three}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad{one}/{two}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad{one}/{two}/{three}','WeController@ada')->middleware('cache.response:525600');
+    Route::get('clu/ad{one}/{two}/{three}/{four}','WeController@ada')->middleware('cache.response:525600');
 
 //-------------Nicholas---------------//
-Route::get('cluNI{one}','WeController@nicholas');
-Route::get('cluNI','WeController@nicholas');
-Route::get('cluNI{one}/{two}','WeController@nicholas');
-Route::get('cluNI{one}/{two}/{three}','WeController@nicholas');
-Route::get('cluni{one}','WeController@nicholas');
-Route::get('cluni','WeController@nicholas');
-Route::get('cluni{one}/{two}','WeController@nicholas');
-Route::get('cluni{one}/{two}/{three}','WeController@nicholas');
+    Route::get('clu/NI{one}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI/{one}/','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI/{one}/{two}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI/{one}/{two}/{three}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI{one}/{two}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI{one}/{two}/{three}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/NI{one}/{two}/{three}/{four}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni{one}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni/{one}/','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni/{one}/{two}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni/{one}/{two}/{three}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni{one}/{two}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni{one}/{two}/{three}','WeController@nicholas')->middleware('cache.response:525600');
+    Route::get('clu/ni{one}/{two}/{three}/{four}','WeController@nicholas')->middleware('cache.response:525600');
 
 //-------------Perry---------------//
-Route::get('cluPR{one}','WeController@perry');
-Route::get('cluPR','WeController@perry');
-Route::get('cluPR{one}/{two}','WeController@perry');
-Route::get('cluPR{one}/{two}/{three}','WeController@perry');
-Route::get('clupr{one}','WeController@perry');
-Route::get('clupr','WeController@perry');
-Route::get('clupr{one}/{two}','WeController@perry');
-Route::get('clupr{one}/{two}/{three}','WeController@perry');
+    Route::get('clu/PR{one}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR/{one}/','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR/{one}/{two}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR/{one}/{two}/{three}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR{one}/{two}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR{one}/{two}/{three}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/PR{one}/{two}/{three}/{four}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr{one}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr/{one}/','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr/{one}/{two}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr/{one}/{two}/{three}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr{one}/{two}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr{one}/{two}/{three}','WeController@perry')->middleware('cache.response:525600');
+    Route::get('clu/pr{one}/{two}/{three}/{four}','WeController@perry')->middleware('cache.response:525600');
 
 //-------------Winston---------------//
-Route::get('cluWS{one}','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluWS','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluWS{one}/{two}','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluWS{one}/{two}/{three}','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluws{one}','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluws','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluws{one}/{two}','WeController@winston')->middleware('cache.response:525600');
-Route::get('cluws{one}/{two}/{three}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS{one}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS/{one}/','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS/{one}/{two}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS/{one}/{two}/{three}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS{one}/{two}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS{one}/{two}/{three}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/WS{one}/{two}/{three}/{four}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws{one}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws/{one}/','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws/{one}/{two}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws/{one}/{two}/{three}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws{one}/{two}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws{one}/{two}/{three}','WeController@winston')->middleware('cache.response:525600');
+    Route::get('clu/ws{one}/{two}/{three}/{four}','WeController@winston')->middleware('cache.response:525600');
 
 //-------------Hedy---------------//
-Route::get('cluHD{one}','WeController@hedy');
-Route::get('cluHD','WeController@hedy');
-Route::get('cluHD{one}/{two}','WeController@hedy');
-Route::get('cluHD{one}/{two}/{three}','WeController@hedy');
-Route::get('cluhd{one}','WeController@hedy');
-Route::get('cluhd','WeController@hedy');
-Route::get('cluhd{one}/{two}','WeController@hedy');
-Route::get('cluhd{one}/{two}/{three}','WeController@hedy');
+    Route::get('clu/HD{one}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD/{one}/','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD/{one}/{two}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD/{one}/{two}/{three}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD{one}/{two}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD{one}/{two}/{three}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/HD{one}/{two}/{three}/{four}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd{one}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd/{one}/','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd/{one}/{two}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd/{one}/{two}/{three}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd{one}/{two}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd{one}/{two}/{three}','WeController@hedy')->middleware('cache.response:525600');
+    Route::get('clu/hd{one}/{two}/{three}/{four}','WeController@hedy')->middleware('cache.response:525600');
 
 //-------------Bieber---------------//
-Route::get('cluBB','WeController@bieber');
-Route::get('cluBB{one}','WeController@bieber');
-Route::get('cluBB{one}/{two}','WeController@bieber');
-Route::get('cluBB{one}/{two}/{three}','WeController@bieber');
-Route::get('clubb','WeController@bieber');
-Route::get('clubb{one}','WeController@bieber');
-Route::get('clubb{one}/{two}','WeController@bieber');
-Route::get('clubb{one}/{two}/{three}','WeController@bieber');
+    Route::get('clu/BB','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB{one}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB/{one}/','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB/{one}/{two}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB/{one}/{two}/{three}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB{one}/{two}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB{one}/{two}/{three}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/BB{one}/{two}/{three}/{four}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb/{one}/','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb/{one}/{two}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb/{one}/{two}/{three}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb{one}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb{one}/{two}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb{one}/{two}/{three}','WeController@bieber')->middleware('cache.response:525600');
+    Route::get('clu/bb{one}/{two}/{three}/{four}','WeController@bieber')->middleware('cache.response:525600');
 
 
 
 //-------------公共页面---------------//
-Route::get('/{one}', 'WeController@index');
-Route::get('/{one}/{two}', 'WeController@index');
-Route::get('/{one}/{two}/{three}', 'WeController@index');
+    Route::get('/{one}', 'WeController@index')->middleware('cache.response:525600');
+    Route::get('/{one}/', 'WeController@index')->middleware('cache.response:525600');
+    Route::get('/{one}/{two}', 'WeController@index')->middleware('cache.response:525600');
+    Route::get('/{one}/{two}/{three}', 'WeController@index')->middleware('cache.response:525600');
+    Route::get('/{one}/{two}/{three}/{four}', 'WeController@index')->middleware('cache.response:525600');
+
+}else{
+
+
+    Route::get('/{one}', 'WeController@no');
+    Route::get('/{one}/', 'WeController@no');
+    Route::get('/{one}/{two}', 'WeController@no');
+    Route::get('/{one}/{two}/{three}', 'WeController@no');
+    Route::get('/{one}/{two}/{three}/{four}', 'WeController@no');
+}

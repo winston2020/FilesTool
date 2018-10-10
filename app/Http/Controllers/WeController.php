@@ -59,5 +59,7 @@ class WeController extends Controller
         return $new;
     }
 
-
+    function no(){
+        return view('404');
+    }
 }

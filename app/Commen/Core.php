@@ -17,31 +17,31 @@ function Master()
 {
 
     $url = Input::path();
-    if (strpos($url, 'cluGG') !== false || strpos($url, 'clugg') !== false) {
+    if (strpos($url, 'clu/GG') !== false || strpos($url, 'clu/gg') !== false) {
         return 'George';
     }//George
-    elseif (strpos($url, 'cluWS') !== false || strpos($url, 'cluws') !== false) {
+    elseif (strpos($url, 'clu/WS') !== false || strpos($url, 'clu/ws') !== false) {
         return 'Winston';
     }//Winston
-    elseif (strpos($url, 'cluLK') !== false || strpos($url, 'clulk') !== false) {
+    elseif (strpos($url, 'clu/LK') !== false || strpos($url, 'clu/lk') !== false) {
         return 'LUKE';
     }//Luke
-    elseif (strpos($url, 'cluAV') !== false || strpos($url, 'cluav') !== false) {
+    elseif (strpos($url, 'clu/AV') !== false || strpos($url, 'clu/av') !== false) {
         return 'Arvin';
     }//Arvin
-    elseif (strpos($url, 'cluAD') !== false || strpos($url, 'cluad') !== false) {
+    elseif (strpos($url, 'clu/AD') !== false || strpos($url, 'clu/ad') !== false) {
         return 'Ada';
     }//Ada
-    elseif (strpos($url, 'cluNI') !== false || strpos($url, 'cluni') !== false) {
+    elseif (strpos($url, 'clu/NI') !== false || strpos($url, 'clu/ni') !== false) {
         return 'Nicholas';
     }//ZhaoSi
-    elseif (strpos($url, 'cluPR') !== false || strpos($url, 'clupr') !== false) {
+    elseif (strpos($url, 'clu/PR') !== false || strpos($url, 'clu/pr') !== false) {
         return 'Perry';
     }//Perry
-    elseif (strpos($url, 'cluHD') !== false || strpos($url, 'cluhd') !== false) {
+    elseif (strpos($url, 'clu/HD') !== false || strpos($url, 'clu/hd') !== false) {
         return 'Hedy';
     }//Hedy
-    elseif (strpos($url, 'cluBB') !== false || strpos($url, 'clubb') !== false) {
+    elseif (strpos($url, 'clu/BB') !== false || strpos($url, 'clu/bb') !== false) {
         return 'Bieber';
     }//Bieber
     return 'data';
