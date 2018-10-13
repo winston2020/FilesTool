@@ -103,7 +103,7 @@ function random_url()
 
 function 图片()
 {
-    return 'http://runzz.cn'.   getimg(Master() . '/img');
+    return getimg(Master() . '/img');
 }
 
 function url1()
@@ -125,6 +125,5 @@ function 随机2($num = 0)
 { //随机获取一条数据，在文件放你想要的数据
     return getrandom(Master() . '/random2', $num);
 }
-
 
 //---------标签结束----------//

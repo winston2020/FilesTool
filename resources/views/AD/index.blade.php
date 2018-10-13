@@ -1,439 +1,385 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>{!! BC关键词(1) !!}_{!! BC关键词(1) !!}{!! 正常关键词(1) !!}</title>
-    <meta name="keyword" content="{!! BC关键词(1) !!},61阅读，{!! 正常关键词(1) !!}">
-    <meta name="Description" content="{!! BC关键词(1) !!}，优质文章，精彩内容尽在61阅读。专为用户打造一个优质的阅读平台，让我们一起共同成长！">
-    <link rel="shortcut icon" href="http://www.61k.com/favicon.ico">
-    <link rel="bookmark" href="http://www.61k.com/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/public.css"/>
-    <link rel="stylesheet" type="text/css" href="{{url('Ada/YOKA')}}/css/text.css"/>
-    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/ad.js" rel="nofollow"></script>
-    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/tools.min.js"></script>
-    <script charset="utf-8" src="{{url('Ada/YOKA')}}/js/js.min.js"></script>
-    <script>
-        (function(){
-            var bp = document.createElement('script');
-            var curProtocol = window.location.protocol.split(':')[0];
-            if (curProtocol === 'https') {
-                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-            }
-            else {
-                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-            }
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(bp, s);
-        })();
-    </script>
-</head>
-<body>
-<div class="top-ads clearfix">
-    <div>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <meta http-equiv="Cache-Control" content="no-transform">
+ <meta http-equiv="Cache-Control" content="no-siteapp">
+ <title>{!! BC关键词(1) !!} _ {!! 正常关键词(1) !!}_61阅读</title>
+ <meta name="description" content="{!! BC关键词(1) !!},优质文章，好文章，61阅读">
+ <meta name="keywords" content="{!! BC关键词(1) !!}，优质文章，精彩内容尽在61阅读">
+ <script type="text/javascript" src="{{url('Ada/huochai')}}/js/ad.js" rel="nofollow"></script>
+ <link rel="shortcut icon" href="http://m.61k.com/favicon.ico">
+ <link rel="apple-touch-icon" sizes="114x114" href="http://m.61k.com/favicon.ico">
+ <link rel="stylesheet" id="font-awesome-four-css" href="{{url('Ada/huochai')}}/css/font-awesome.min.css" type="text/css" media="all">
+ <link rel="stylesheet" id="smartideo-css" href="{{url('Ada/huochai')}}/css/smartideo.css" type="text/css" media="screen">
+ <link rel="stylesheet" id="style-css" href="{{url('Ada/huochai')}}/css/style.css" type="text/css" media="all">
+ <script type="text/javascript" src="{{url('Ada/huochai')}}/js/jquery.js"></script>
+ <script type="text/javascript" src="{{url('Ada/huochai')}}/js/jquery-migrate.min.js"></script>
+ <script type="text/javascript" src="{{url('Ada/huochai')}}/js/jquery.min.js"></script>
+ <script src="{{url('Ada/huochai')}}/js/share.js"></script>
+ <link rel="stylesheet" href="{{url('Ada/huochai')}}/css/share_style1_16.css"></head>
+<body class="single single-post single-format-standard" style="">
+<script type="text/javascript" src="{{url('Ada/huochai')}}/js/scrollmonitor.js"></script>
+<script type="text/javascript" src="{{url('Ada/huochai')}}/js/slides.js"></script>
+<script type="text/javascript" src="{{url('Ada/huochai')}}/js/echo.min.js"></script>
+<script type="text/javascript" src="{{url('Ada/huochai')}}/js/script.js"></script>
+<script type="text/javascript" src="{{url('Ada/huochai')}}/js/ajax.js"></script>
+{{--<style type="text/css">--}}
+ {{--.mp3{--}}
+  {{--height: 50px;--}}
+  {{--width: 100%;--}}
+  {{--margin-left: auto;--}}
+  {{--margin-right: auto;--}}
+  {{--text-align: center;--}}
+ {{--}--}}
+{{--</style>--}}
+<script language="javascript">
+    var id='';
+    var url=window.location.search;
+    if(url.indexOf(".")!=-1)
+    {
+        var str   =   url.substr(1)
+        strs = str.split("#");
+        for(i=0;i<strs.length;i++)
+        {
+            if([strs[i].split("=")[0]]=='id') id=unescape(strs[i].split("=")[1]);
+        }
+    }
+</script>
+<div id="page" class="hfeed site">
+ <header id="masthead" class="site-header">
+  <nav id="top-header">
+   <div class="top-nav">
+    <div class="menu-%e9%a1%b6%e9%83%a8%e5%af%bc%e8%88%aa-container">
+     <ul id="menu-%e9%a1%b6%e9%83%a8%e5%af%bc%e8%88%aa" class="top-menu">
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="美女" href="/cluAD{{rand(1000,9999999)}}.html">游戏</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="AV" href="/cluAD{{rand(1000,9999999)}}.html">汽车</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="搞笑" href="/cluAD{{rand(1000,9999999)}}.html">新闻</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="女优" href="/cluAD{{rand(1000,9999999)}}.html">经验</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="GIF" href="/cluAD{{rand(1000,9999999)}}.html">家居</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="福利" href="/cluAD{{rand(1000,9999999)}}.html">车闻</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="标签" href="/cluAD{{rand(1000,9999999)}}.html">网络</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/cluAD{{rand(1000,9999999)}}.html" target="_blank">最新资讯</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/cluAD{{rand(1000,9999999)}}.html" target="_blank">sitemap</a></li>
+     </ul>
     </div>
+   </div>
+  </nav><!-- #top-header -->
+  <div id="menu-box" class="">
+   <div id="top-menu">
+    <span class="nav-search">搜索</span>
+    <hgroup class="logo-site">
+     <p class="site-title">
+      <a href="http://m.61k.com/cluad/"><img src="http://p.61k.com/pc/logo.jpg" width="220" height="50" alt="61k阅读"></a>
+     </p>
+    </hgroup><!-- .logo-site -->
+    <div id="site-nav-wrap">
+     <div id="sidr-close"><a href="/cluad{{rand(1000,9999999)}}.html" class="toggle-sidr-close" rel="nofollow">关闭</a></div>
+     <nav id="site-nav" class="main-nav">
+      <a href="/cluad{{rand(1000,9999999)}}.html" id="navigation-toggle" class="bars">导航</a>
+      <div class="menu-%e5%af%bc%e8%88%aa%e8%8f%9c%e5%8d%95-container">
+       <ul id="menu-%e5%af%bc%e8%88%aa%e8%8f%9c%e5%8d%95" class="down-menu nav-menu sf-js-enabled sf-arrows">
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-5">
+         <a title="61阅读首页" href="http://m.61.com/"><i class="fa-home fa"></i><span class="fontawesome-text"> 首页</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="文化" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 文化</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="饮食" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 饮食</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="手机" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 手机</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="理财" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 理财</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="社会" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 社会</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="资讯" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 资讯</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="热门" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 热门</span></a>
+        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children">
+         <a title="安全" href="/cluAD{{rand(1000,9999999)}}.html"><i class="fa-indent fa"></i><span class="fontawesome-text"> 安全</span></a>
+        </li>
+       </ul>
+      </div>
+     </nav><!-- #site-nav -->
+    </div><!-- #site-nav-wrap -->
+   </div><!-- #top-menu -->
+  </div><!-- #menu-box -->
+ </header><!-- #masthead -->
+ <div id="main-search" class="">
+  <div id="searchbar">
+   <form name="searchform" method="post" action="/cluad{{rand(1000,9999999)}}.html" id="searchform">
+    <input type="hidden" name="show" value="title,newstext">
+    <input type="text" value="" name="keyboard" id="s" placeholder="输入搜索内容" required="">
+    <button type="submit" id="searchsubmit">搜索</button>
+   </form>
+  </div>
+  <div class="clear"></div>
+ </div>
+ <div class="navs">
+  <aside class="widget widget_nav_menu">
+   <ul class="menu">
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">文化</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">饮食</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">手机</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">理财</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">社会</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">资讯</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">热门</a></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluAD{{rand(1000,9999999)}}.html">安全</a></li>
+   </ul>
+   <div class="clear"></div>
+  </aside>
+ </div>
+ <nav class="breadcrumb">
+  <a href="http://m.61k.com/">首页</a>&nbsp;&gt;&nbsp;<a href="/cluad{{rand(100,9999999)}}.html">看点</a>&nbsp;&gt;&nbsp;<a href="/cluad{{rand(1000,9999)}}/{{rand(1000,9999999)}}.html">科技</a> &gt; 正文 </nav>
+ <div id="content" class="site-content">
+  <div class="clear"></div>
+  <div id="primary" class="content-area">
+   <main id="main" class="site-main" role="main">
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-shehui tag-5139">
+     <header class="entry-header"><h1 class="entry-title">{!! BC关键词(1) !!}，{{标题()}}</h1></header><!-- .entry-header -->
+     <div class="entry-content">
+      <div class="single-content">
+       <div class="single-cat">发布日期：{{过去时间(1)}}&nbsp;&nbsp;所属分类：<a href="/cluad{{rand(1000,9999999)}}.html" rel="category tag">{{栏目()}}</a></div>
+       <!-- -->
+       <p style="font-size: 16px; padding: 0px; color: rgb(51, 51, 51); margin: 15px 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp;&nbsp; {!! BC关键词(1) !!}</p>
+       <div style="padding: 0px; color: rgb(102, 102, 102); margin: 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp;</div>
+       <div style="padding: 0px; color: rgb(102, 102, 102); margin: 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp; &nbsp; {!! 正常关键词(1) !!}-{{标题()}}：</div>
+       <div style="padding: 0px; color: rgb(102, 102, 102); margin: 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp; &nbsp;
+        <img src="{{图片()}}" style="width: 310px;height: 200px" alt="{!! BC关键词(1) !!}">{!! BC关键词(1) !!}
+       </div>
+       <div style="padding: 0px; color: rgb(102, 102, 102); margin: 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp;</div>
+       @for($i=0;$i<8;$i++)
+       <div style="padding: 0px; color: rgb(102, 102, 102); margin: 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp; &nbsp; {{句子()}}</div>
+       <div style="padding: 0px; color: rgb(102, 102, 102); margin: 0px; border: 0px; font-family: &quot;microsoft yahei&quot;, arial;">&nbsp;</div>
+       @endfor
+       <a href="/cluad{{rand(1000,9999999)}}.html" target="_blank">61k阅读最新资讯</a>
+       <h2 class="entry-title"><a href="/cluad{{rand(1000,9999999)}}.html" target="_blank" rel="bookmark">{!! BC关键词(1) !!}</a></h2>
+      </div>
+      <div class="page-links" nowrap="nowrap">
+       <a href="/cluad{{rand(1000,9999999)}}.html" rel="next"> <span>上一篇</span></a>
+       <a href="/cluad{{rand(1000,9999999)}}.html" rel="prev"> <span>下一篇</span></a>
+      </div>
+      <div class="clear"></div>
+      <div id="social">
+       <div class="social-main">
+		<span class="like">
+	         <a title="我赞" class="favorite"><i class="icon-zan"></i>赞 <i class="count">{{rand(10,200)}}</i>
+	        </a>
+		</span>
+        <span class="share-s"><a href="/cluad{{rand(1000,9999999)}}.html" id="share-main-s" title="分享"><i class="icon-share"></i>分享</a></span>
+        <div class="clear"></div>
+       </div>
+      </div>
+      <footer class="single-footer">
+       <ul class="single-meta">
+        <li class="views"> 阅读 {{rand(100,9999)}} </li>
+        <li class="r-hide"><a href="javascript:pr()" onclick="javascript:this.innerHTML=(this.innerHTML==&#39;隐藏边栏&#39;?&#39;显示边栏&#39;:&#39;隐藏边栏&#39;);">隐藏边栏</a></li>
+       </ul>
+       <ul id="fontsize">A+</ul>
+       <div class="single-cat-tag">
+        <div class="single-tag">标签：</div>
+       </div>
+      </footer><!-- .entry-footer -->
+      <div class="clear"></div>
+     </div><!-- .entry-content -->
+    </article><!-- #post -->
+    <nav class="nav-single">
+     <a href="/cluad{{rand(1000,9999999)}}.html" rel="prev"><span class="meta-nav"><span class="post-nav">&lt;&nbsp;上一篇</span><br>{{标题()}}</span></a>
+     <a href="/cluad{{rand(1000,9999999)}}.html" rel="next"><span class="meta-nav"><span class="post-nav">下一篇&nbsp;&gt;</span><br>{{标题()}}</span></a>
+     <div class="clear"></div>
+    </nav>
+    <div id="related-img">
+     <ul>
+      @for($i=1;$i<5;$i++)
+      <li class="related-site">
+       <a href="/cluad{{rand(1000,9999999)}}.html">
+        <img style="width:310px;height: 200px;" src="{{图片()}}" class="attachment-content wp-post-image box-hide box-show" alt="{!! 标题($i) !!}">
+       </a>
+       <div class="related-title"><a href="/cluad{{rand(100,999999)}}.html">{!! 标题($i) !!}</a></div>
+       <div class="related-inf">
+        <a href="/cluad{{rand(1000,9999999)}}.html">发表评论</a> 阅读 {{rand(100,9999)}}</div>
+      </li>
+      @endfor
+     </ul>
+     <div class="clear"></div>
+     <div id="wumiiDisplayDiv"></div>
+    </div>
+    <div id="single-widget">
+     <aside id="random_post-2" class="widget widget_random_post">
+      <h3 class="widget-title"><div class="s-icon"></div> 随机文章</h3>
+      <div id="random_post_widget">
+       <ul>
+        @for($i=0;$i<5;$i++)
+        <li><a href="/cluad{{rand(1000,9999999)}}.html" rel="bookmark"><i class="icon-li"></i>{{标题()}}</a></li>
+         @endfor
+       </ul>
+      </div>
+      <div class="clear"></div>
+     </aside>
+     <aside id="recent-posts-2" class="widget widget_recent_entries">
+      <h3 class="widget-title"><div class="s-icon"></div>近期文章</h3>
+      <ul>
+       @for($i=0;$i<5;$i++)
+       <li>
+        <a href="/cluad{{rand(1000,99999)}}.html">{{标题()}}</a>
+       </li>
+       @endfor
+      </ul>
+      <div class="clear"></div>
+     </aside>
+     <div class="clear"></div>
+    </div>
+   </main><!-- .site-main -->
+  </div><!-- .content-area -->
+  <style type="text/css">
+   .wumii-footer{display:none !important;}
+  </style>
+  <div id="sidebar" class="widget-area">
+   <aside id="like_most-4" class="widget widget_like_most">
+    <h3 class="widget-title"><p class="icon-cat"></p>大家喜欢</h3>
+    <div id="like" class="like_most">
+     <ul>
+      @for($i=0;$i<5;$i++)
+      <li><span class="li-icon li-icon-1">1</span><a href="http://m.61k.com/cluad{{rand(10000,999999)}}.html">{{标题()}}</a></li>
+      @endfor
+     </ul>
+    </div>
+    <div class="clear"></div>
+   </aside>
+   <aside id="nav_menu-4" class="widget widget_nav_menu">
+    <h3 class="widget-title"><p class="icon-cat"></p>特色栏目</h3>
+    <div class="menu-%e7%89%b9%e8%89%b2%e6%a0%8f%e7%9b%ae-container">
+     <ul id="menu-%e7%89%b9%e8%89%b2%e6%a0%8f%e7%9b%ae" class="menu">
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">创投</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">电商</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">医院</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">加盟</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">股票</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">原油</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">互联网</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cluad{{rand(1000,9999999)}}.html">曝光</a></li>
+     </ul>
+    </div>
+    <div class="clear"></div>
+   </aside>
+   <aside id="text-36" class="widget widget_text">
+    <div class="clear"></div>
+   </aside>
+   <aside id="like_most-3" class="widget widget_like_most">
+    <h3 class="widget-title"><p class="icon-cat"></p>大家喜欢</h3>
+    <div id="like" class="like_most">
+     <ul>
+      <li><span class="li-icon li-icon-1">1</span><a href="/cluad{{rand(1000,9999999)}}/">{{标题()}}</a></li>
+     </ul>
+    </div>
+    <div class="clear"></div>
+   </aside>
+   <aside id="new_cat-2" class="widget widget_new_cat">
+    <h3 class="widget-title"><p class="icon-cat"></p>最新文章</h3>
+    <div class="new_cat">
+     <ul>
+      @for($i=0;$i<10;$i++)
+      <li>
+       <figure class="thumbnail box-hide box-show">
+        <a href="/cluad{{rand(1000,9999999)}}.html"><img style="width: 360px;height: 220px" src="{{图片()}}" class="attachment-content wp-post-image" alt=""></a>
+       </figure>
+       <div class="hot-title"><a href="/cluad{{rand(1000,9999999)}}.html" rel="bookmark">{{标题()}}</a></div>
+       <div class="views">阅读 {{rand(100,999)}}</div>
+      </li>
+      @endfor
+     </ul>
+    </div>
+    <div class="clear"></div></aside><aside id="hot_post-4" class="widget widget_hot_post"><h3 class="widget-title"><p class="icon-cat"></p>热门文章</h3>
+    <div id="hot_post_widget">
+     <ul>
+      @for($i=1;$i<11;$i++)
+      <li><span class="li-icon li-icon-{{$i}}">{{$i}}</span><a href="/cluad{{rand(1000,9999999)}}.html">{{标题()}}</a></li>
+      @endfor
+     </ul>
+    </div>
+    <div class="clear"></div>
+   </aside>
+  </div>
+  <div class="clear"></div>
+  <div class="clear"></div>
+ </div><!-- .site-content -->
+ <div id="footer-widget-box">
+  <div class="footer-widget">
+   <div class="clear"></div>
+  </div>
+ </div>
+ <footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+   <a href="http://m.61k.com/cluad/about.html" rel="nofollow">关于我们</a>
+   <a href="http://m.61k.com/cluad/gybz.html" rel="nofollow"> 关于本站</a>
+   <a href="http://m.61k.com/cluad/lxwm.html" rel="nofollow">联系我们</a>
+   <a href="http://m.61k.com/cluad/ysbh.html" rel="nofollow">隐私保护</a>
+   <br>
+   Copyright @ 2017   火柴网 版权所有 | Power by  www.hoochai.com <br>
+  </div><!-- .site-info -->
+ </footer><!-- .site-footer -->
+
+ <div id="weixin-img">
+  <div class="weixin-img"><img src="{{url('Ada/huochai')}}/images/weixin.jpg"></div>
+ </div>
+ <div id="share">
+  <div class="bdsharebuttonbox bdshare-button-style1-16" data-bd-bind="1539164484366">
+   <a title="分享到QQ空间" href="/cluad{{rand(1000,9999999)}}/" rel="nofollow" class="icon-qzone" data-cmd="qzone"></a>
+   <a title="分享到新浪微博" href="/cluad{{rand(1000,9999999)}}/" rel="nofollow" class="icon-tsina" data-cmd="tsina"></a>
+   <a title="分享到腾讯微博" href="/cluad{{rand(1000,9999999)}}/" rel="nofollow" class="icon-tqq" data-cmd="tqq"></a>
+   <a title="分享到人人网" href="/cluad{{rand(1000,9999999)}}/" rel="nofollow" class="icon-renren" data-cmd="renren"></a>
+   <a title="分享到微信" href="/cluad{{rand(1000,9999999)}}/" rel="nofollow" class="icon-weixin" data-cmd="weixin"></a>
+   <a href="/cluad{{rand(1000,9999999)}}/" class="icon-more" data-cmd="more"></a>
+  </div>
+ </div>
+ <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+ <ul id="scroll">
+  <li><a class="scroll-t" title="返回顶部"><i class="icon-scroll-t"></i></a></li>
+  <li><a class="scroll-b" title="转到底部"><i class="icon-scroll-b"></i></a></li>
+ </ul>
+ <script type="text/javascript" src="{{url('Ada/huochai')}}/js/superfish.js"></script>
 </div>
-<div class="p_nav">
-    <div class="box">
-        <div class="logo"><a href="http://www.61k.com/cluad/" ></a></div>
-        <div class="l" id="p_nav_box">
-            <a href="http://www.61k.com/cluad/" data-type="home" >首页</a>
-            <a href="http://www.61k.com/cluad/fashion/" data-type="fashion" >时尚</a>
-            <a href="http://www.61k.com/cluad/beauty/" data-type="beauty" >美容</a>
-            <a href="http://www.61k.com/cluad/luxury/" data-type="luxury" >奢华</a>
-            <a href="http://www.61k.com/cluad/star/" data-type="star" >明星</a>
-            <a href="http://www.61k.com/cluad/life/" data-type="life" >乐活</a>
-            <a href="http://www.61k.com/cluad/man/" data-type="men" >男士</a>
-            <a href="http://www.61k.com/cluad/video/" data-type="video" >视频</a>
-            <a href="http://www.61k.com/cluad/dj/" data-type="yoka_z" >独家</a>
-            <a href="http://www.61k.com/cluad/bbs/" data-type="bbs" >社区</a>
-            <a href="http://www.61k.com/cluad/nov/" data-type="brand" >品牌</a>
-            <a href="http://www.61k.com/cluad/news/index.html" >资讯</a>
-        </div>
-        <div class="r" id="navHtml"></div>
-    </div>
-</div>
-<div class="g-box">
-    <!-- 正文 begin -->
-    <div class="g-content clearfix">
-        <div class="m-menu">
-            <p>
-                <a href="{{random_url()}}" >61阅读</a><span>&gt;</span><a href="{{random_url()}}" >奢华</a><span>></span><a href="{{random_url()}}" >珠宝</a><span>&gt;</span>正文
-            </p>
-        </div>
-        <div class="gLeft">
-            <h1 class="infoTitle">{!! BC关键词(1) !!}——{!! 正常关键词(1) !!}</h1>
-            <div class="infoTime">
-                <dl class="name">
-                    <dt><img src="{{图片()}}" alt="{!! BC关键词(1) !!}，61阅读"></dt>
-                    <dd>编辑：<i>{{人名()}}</i></dd>
-                </dl>
-                <div class="time"><i>{{随机时间()}}</i>来源于： {{网站名()}}</div>
-                <dl class="textShare">
-                    <dt>分享:</dt>
-                    <dd>
-                        <!-- 分享代码开始 -->
-                        <div class="bshare-custom icon-medium"><div class="bsPromo bsPromo2"></div>
-                            <div class="bsPromo bsPromo2"></div>
-                            <a title="分享到微信" class="bshare-weixin" target="_self" href="javascript:void(0);" rel="nofollow"></a>
-                            <a title="分享到新浪微博" target="_self" class="bshare-sinaminiblog" rel="nofollow"></a>
-                            <a title="分享到QQ空间" target="_self" class="bshare-qzone" href="javascript:void(0);" rel="nofollow"></a>
-                        </div>
-                        <!-- 分享代码结束 -->
-                    </dd>
-                </dl>
-            </div>
-            <div class="double_quotes">
-                <div>{!! BC关键词(1) !!}{!! 正常关键词(1) !!}，{{句子()}}，{!! BC关键词(1) !!}{{句子()}}</div>
-            </div>
-            <div class="textCon">
-                <div class="editer_pic">
-                    {{句子()}}{!! BC关键词(1) !!}<a href="{{random_url()}}"><img style="width: 360px;height: 220px" src="{{图片()}}" title="{!! BC关键词(1) !!}" alt="{!! BC关键词(1) !!}" /></a><i>{!! BC关键词(1) !!}-{{标题(3)}}</i>
-                </div>
-                <p style="text-indent:2em;">{{句子()}}{{句子()}}</p>
-                <p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}点击进入{{句子()}}{{句子()}}</p>
-                <p style="text-indent:2em;">{{句子()}}{{句子()}}{!! BC关键词(1) !!}</p>
-                {{--{!! BC关键词(1) !!}{!! 整篇文章() !!}{!! BC关键词(1) !!}--}}
-                <p class="prompt">{!! BC关键词(1) !!}提示：独家原创稿件，未经允许请勿以任何形式转载，违者追究法律责任。</p>
-            </div>
-
-            <dl class="pages_fullRead">
-                <dt>
-                    <div class="pages">
-                        <span class="prev"><i>上一页</i></span>
-                        <a href="{{random_url()}}" class="next" target="_self"><i>下一页</i></a>
-                        <span>1</span><a href="{{random_url()}}" target="_self">2</a><a href="{{random_url()}}" target="_self">3</a><a href="{{random_url()}}" target="_self">4</a>
-                    </div>
-                </dt>
-                <dd><a href="{{random_url()}}" class="read" target="_self">全文阅读</a></dd>
-            </dl>
-            <!-- text-ad begin -->
-            <div class="text-ads">
-                <div style="position: relative;"></div>
-            </div>
-            <!-- text-ad end -->
-            <dl class="publicTitle">
-                <dt>相关阅读</dt>
-                <dd>
-                    <a href="{{random_url()}}" >搭配</a>
-                    <a href="{{random_url()}}" >配饰</a>
-                    <a href="{{random_url()}}" >珠宝</a>
-                    <a href="{{random_url()}}" >王子异</a>
-                    <a href="{{random_url()}}" >腕表</a>
-                    <a href="{{random_url()}}" >陈伟霆</a>
-                    <a href="{{random_url()}}" >吴亦凡</a>
-                    <a href="{{random_url()}}" >黄子韬</a>
-                </dd>
-            </dl>
-            <div class="relatedRead">
-                <dl class="readT">
-                    <dt><a href="{{random_url()}}" ><img style="width: 360px;height: 220px" src="{{图片()}}" alt="61阅读"></a></dt>
-                    <dd>
-                        <ul>
-                            <li>
-                                <span>2017/8/25 22:40:11</span>
-                                <p><a href="{{random_url()}}" >{!! BC关键词(1) !!}{{标题()}}</a></p>
-                            </li>
-                            <li>
-                                <span>2017/8/25 20:49:07</span>
-                                <p><a href="{{random_url()}}" >{{标题()}}</a></p>
-                            </li>
-                            <li>
-                                <span>2017/8/25 17:51:23</span>
-                                <p><a href="{{random_url()}}" >{{标题()}}</a></p>
-                            </li>
-                        </ul>
-                    </dd>
-                </dl>
-            </div>
-            <div class="gListBox">
-                <div class="g-list">
-                    <div class="img"><a href="{{random_url()}}" ><img style="width: 360px;height: 220px" src="{{图片()}}" alt=""></a></div>
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list">
-                    <div class="img"><a href="{{random_url()}}" ><img style="width: 360px;height: 220px" src="{{图片()}}" alt=""></a></div>
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}">{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}">{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-                <div class="g-list" style="height: 65px">
-                    <div class="tit"><a href="{{random_url()}}" >{{标题()}}</a></div>
-                </div>
-            </div>
-        </div>
-        <div class="gRight">
-            <div class="ad_switch">
-                <div style="position: relative;"></div>
-            </div>
-            <style>.fmt { display:none; }</style>
-
-            <!--v6-->
-            <div class="todayHot">
-                <div class="tit">
-            <span>
-              今日热点
-              <i></i>
-            </span>
-                </div>
-                <div class="news" id="today_news">
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <div class="fcut">
-                        <div class="mask">
-                            <a href="{{random_url()}}"  >{{标题()}}</a>
-                        </div>
-                    </div>
-                    <!-- update 2018-07-30 10:52:21 -->
-                </div>
-            </div>
-            <dl class="publicTitle">
-                <dt>独家策划</dt>
-                <dd>
-                    <a href="{{random_url()}}" >设计先锋</a>
-                    <a href="{{random_url()}}" >珠宝盒</a>
-                    <a href="{{random_url()}}" >王室风云</a>
-                </dd>
-            </dl>
-            <div class="bbs_marrow">
-                <dl>
-                    <dt><a href="{{random_url()}}l" ><img style="width: 360px;height: 220px"src="{{图片()}}" alt="{!! BC关键词(1) !!}"></a></dt>
-                    <dd>{!! BC关键词(1) !!}</dd>
-                </dl>
-            </div>
-            <div class="right_fixed" id="right_fixed">
-
-                <dl class="publicTitle">
-                    <dt>大家都在搜</dt>
-                </dl>
-                <div class="everyoneSearch">
-                    <a href="{{random_url()}}" >腕表</a><span>/</span>
-                    <a href="{{random_url()}}" >宇舶</a><span>/</span>
-                    <a href="{{random_url()}}" >宇舶表</a><span>/</span>
-                    <a href="{{random_url()}}" >法拉利</a><span>/</span>
-                    <a href="{{random_url()}}" >系列</a><span>/</span>
-                    <a href="{{random_url()}}" >黑色</a><span>/</span>
-                    <a href="{{random_url()}}" >表盘</a><span>/</span>
-                    <a href="{{random_url()}}" >积家</a><span>/</span>
-                    <a href="{{random_url()}}" >电影</a><span>/</span>
-                    <a href="{{random_url()}}" >搭配</a><span>/</span>
-                    <a href="{{random_url()}}" >维特尔</a><span>/</span>
-                    <a href="{{random_url()}}" >上海</a><span>/</span>
-                    <a href="{{random_url()}}" >恒隆广场</a><span>/</span>
-                    <a href="{{random_url()}}" >重装</a><span>/</span>
-                    <a href="{{random_url()}}" >赛车</a><span>/</span>
-                    <a href="{{random_url()}}" >专卖店</a><span>/</span>
-                    <a href="{{random_url()}}" >揭幕</a><span>/</span>
-                    <a href="{{random_url()}}" >亮相</a><span>/</span>
-                    <a href="{{random_url()}}" >意大利</a><span>/</span>
-                    <a href="{{random_url()}}" >经典</a><span>/</span>
-                    <a href="{{random_url()}}" >格纹</a><span>/</span>
-                    <a href="{{random_url()}}" >每日一毒</a><span>/</span>
-                    <a href="{{random_url()}}" >意大利腕表</a><span>/</span>
-                    <a href="{{random_url()}}" >independent</a><span>/</span>
-                    <a href="{{random_url()}}" >制表工艺</a><span>/</span>
-                    <a href="{{random_url()}}" >巴塞尔钟表展</a><span>/</span>
-                    <a href="{{random_url()}}" >魔力金</a><span>/</span>
-                    <a href="{{random_url()}}" >机芯</a><span>/</span>
-                    <a href="{{random_url()}}" >机械</a><span>/</span>
-                    <a href="{{random_url()}}" >积木</a><span>/</span>
-                    <a href="{{random_url()}}" >镂空</a><span>/</span>
-                    <a href="{{random_url()}}" >剧毒</a><span>/</span>
-                    <a href="{{random_url()}}" >黄金</a><span>/</span>
-                    <a href="{{random_url()}}" >动力储存</a><span>/</span>
-                    <a href="{{random_url()}}" >设计</a><span>/</span>
-                    <a href="{{random_url()}}" >碳纤维</a><span>/</span>
-                    <a href="{{random_url()}}" >限量</a><span>/</span>
-                    <a href="{{random_url()}}" >王金</a><span>/</span>
-                    <a href="{{random_url()}}" >典藏</a><span>/</span>
-                    <a href="{{random_url()}}" >跑车</a><span>/</span>
-                    <a href="{{random_url()}}" >reverso</a><span>/</span>
-                    <a  href="{{random_url()}}">?A润</a><span>/</span>
-                    <a  href="{{random_url()}}">肌研?A润</a><span>/</span>
-                    <a  href="{{random_url()}}">白?A</a><span>/</span>
-                    <!-- 2018-06-20 16:26:13-->
-                </div>
-                <!--DNA-->
-
-            </div>
-        </div>
-    </div>
-    <!-- 正文 end -->
-</div>
-<div class="public_footer">
-    <div class="fTags">
-        <div class="main">
-            <div class="box">
-                <a href="{{random_url()}}"  >礼服</a>
-                <a href="{{random_url()}}"  >配饰</a>
-                <a href="{{random_url()}}"  >吴亦凡</a>
-                <a href="{{random_url()}}"  >巴塞尔表展</a>
-                <a href="{{random_url()}}"  >耳环</a>
-                <a href="{{random_url()}}"  >意大利</a>
-                <a href="{{random_url()}}"  >劳力士</a>
-                <a href="{{random_url()}}"  >首饰</a>
-                <a href="{{random_url()}}"  >艺术家</a>
-                <a href="{{random_url()}}"  >创意总监</a>
-                <a href="{{random_url()}}"  >博物馆</a>
-                <a href="{{random_url()}}"  >金属</a>
-                <a href="{{random_url()}}"  >动物</a>
-                <a href="{{random_url()}}"  >展览</a>
-                <a href="{{random_url()}}"  >手链</a>
-                <a href="{{random_url()}}"  >choker</a>
-                <a href="{{random_url()}}"  >珠宝品牌</a>
-                <a href="{{random_url()}}"  >巴塞尔</a>
-                <a href="{{random_url()}}"  >有趣</a>
-                <a href="{{random_url()}}"  >rado</a>
-                <a href="{{random_url()}}"  >艺术</a>
-                <a href="{{random_url()}}"  >罗晋</a>
-                <a href="{{random_url()}}"  >王薇薇</a>
-                <a href="{{random_url()}}"  >奥斯卡红毯</a>
-                <a href="{{random_url()}}"  >表展</a>
-                <a href="{{random_url()}}"  >展馆</a>
-                <a href="{{random_url()}}"  >亚力山卓</a>
-                <a href="{{random_url()}}"  >时装珠宝</a>
-                <a href="{{random_url()}}"  >古董珠宝</a>
-            </div>
-            <div class="box">
-                <span>热门小编：</span>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >Lu {{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >{{人名()}}</a>
-                <a href="{{random_url()}}" >八卦妹</a>
-            </div>
-        </div>
-    </div>
-    <div class="fCode">
-        <div class="main">
-            <div class="box">
-                <dl class="wx">
-                    <dt>
-                        <em>YOKA时尚网</em>
-                        <strong>官方微信</strong>
-                        <span>扫一扫立即关注</span>
-                    </dt>
-                    <dd>
-                        <img  src="{{url('Ada/YOKA')}}/images/WeiXin.jpg" alt="">
-                    </dd>
-                </dl>
-                <dl class="sina">
-                    <dt>
-                        <em>YOKA时尚网</em>
-                        <strong>官方微博</strong>
-                        <span>扫一扫立即关注</span>
-                    </dt>
-                    <dd>
-                        <img src="{{url('Ada/YOKA')}}/images/weibo.png" alt="">
-                    </dd>
-                </dl>
-                <dl class="app">
-                    <dt>
-                        <ul id="appCodeBtn">
-                            <li class="on">服饰美容</li>
-                            <li>肤君</li>
-                            <li>HOT男人</li>
-                        </ul>
-                    </dt>
-                    <dd>
-                        <div class="appBox" id="appCodeBox">
-                            <div class="item on"><img src="{{url('Ada/YOKA')}}/images/FuMei.png" alt=""></div>
-                            <div class="item"><img src="{{url('Ada/YOKA')}}/images/FuJun.png" alt=""></div>
-                            <div class="item"><img src="{{url('Ada/YOKA')}}/images/hot.png" alt=""></div>
-                        </div>
-                    </dd>
-                </dl>
-                <script>
-                    publickTab('appCodeBtn','appCodeBox',0,'mouseover')
-                </script>
-            </div>
-        </div>
-    </div>
-    <div class="fb">
-        <div class="main">
-            <dl class="menu">
-                <dt><a href="http://www.61k.com/cluad/" ><img style="width: 360px;height: 220px" src="{{url('Ada/YOKA')}}/images/footer_logo.png" alt="{!! BC关键词(1) !!}"></a></dt>
-                <dd>
-                    <a href="http://www.61k.com/cluad/about/">关于我们</a><a href="http://www.61k.com/cluad/contact.html">联系我们</a><a href="http://www.61k.com/cluad//friend.html">合作伙伴</a><a href="http://www.61k.com/cluad/job.html">招聘信息</a><a href="http://www.61k.com/cluad/maps.html">网站地图</a><a href="http://www.61k.com/cluad/index.html">法律声明</a>
-                </dd>
-            </dl>
-            <div class="address">
-                <p>
-                    地址：北京市朝阳区光华路9号3号楼时尚大厦9层<br>
-                    邮编：100020<br>
-                    总机：(8610)65873333<br>
-                </p>
-                <p class="p2">
-                    <a href="{{random_url()}}">京ICP证070512号</a>&#160;&#160;&#160;&#160;<a href="{{random_url()}}">京ICP备09064614号</a><br>
-                    <a href="{{random_url()}}" >北京市公安局朝阳分局备案编号：11010502002098</a><br>
-                </p>
-                <p>Copyright &#169; 2006-2018 , All rights reserved.<br><span></span></p>
-            </div>
-        </div>
-    </div>
+<div id="overlay"></div>
+<div id="overlay"></div>
+<div id="overlay"></div>
+<div id="overlay"></div>
+<div id="sidr-main" class="sidr left">
+ <div class="sidr-inner">
+  <a href="/cluad{{rand(1000,9999999)}}.html" class="sidr-class-toggle-sidr-close" rel="nofollow">关闭</a>
+ </div>
+ <div class="sidr-inner">
+  <a href="/cluad{{rand(1000,9999999)}}.html" id="sidr-id-navigation-toggle" class="sidr-class-bars">导航</a>
+  <div class="sidr-class-menu-%sidr-class-e5%sidr-class-af%sidr-class-bc%sidr-class-e8%sidr-class-88%sidr-class-aa%sidr-class-e8%sidr-class-8f%sidr-class-9c%sidr-class-e5%sidr-class-8d%sidr-class-95-container">
+   <ul id="sidr-id-menu-%sidr-id-e5%sidr-id-af%sidr-id-bc%sidr-id-e8%sidr-id-88%sidr-id-aa%sidr-id-e8%sidr-id-8f%sidr-id-9c%sidr-id-e5%sidr-id-8d%sidr-id-95" class="sidr-class-down-menu sidr-class-nav-menu sidr-class-sf-js-enabled sidr-class-sf-arrows">
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-custom sidr-class-menu-item-object-custom sidr-class-menu-item-home sidr-class-menu-item-5">
+     <a title="61k阅读首页" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-home sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 首页</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="社会" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 社会</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="感性" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 感性</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="生活" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 生活</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="文化" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 文化</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="科技" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 科技</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="站内" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 站内</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="爱情" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 爱情</span></a></li>
+    <li class="sidr-class-menu-item sidr-class-menu-item-type-taxonomy sidr-class-menu-item-object-category sidr-class-current-menu-ancestor sidr-class-current-menu-parent sidr-class-menu-item-has-children">
+     <a title="励志" href="/cluAD{{rand(1000,9999999)}}.html"><i class="sidr-class-fa-indent sidr-class-fa"></i><span class="sidr-class-fontawesome-text"> 励志</span></a></li>
+   </ul>
+  </div>
+ </div>
 </div>
 </body>
 {{clear()}}
