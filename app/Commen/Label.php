@@ -67,7 +67,12 @@ function 年月日()
 
 function 年月日时分秒()
 { //年-月-日 小时:分:秒
-    return date('Y-m-d H:i:s');
+    return date('Y年m月d日 H:i:s');
+}
+
+function 年月日时分()
+{ //年-月-日 小时:分:秒
+    return date('Y年m月d日 H:i');
 }
 
 function 随机时间()

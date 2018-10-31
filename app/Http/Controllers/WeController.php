@@ -13,6 +13,9 @@ class WeController extends Controller
     }
 
     function luke(){
+
+        if (rand(0,1) ==1)
+            return view('LU/m/index');
         return view('LU/index');
     }
 

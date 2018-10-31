@@ -53,25 +53,25 @@ function getrandom($path = '/txt', $num = 0)
     $files = Storage::files($path); //获取路径下所有文件
     $rand = rand(0, count($files) - 1);
     $file = @fopen($files[$rand], 'r'); //以读取模式打开文件
-    $array = array();
+    $rand = rand(0,count($files[$rand])-1);
     if ($file) { //判断文件
         $i = 0;
+
         while (!feof($file)) { //判断是否到最后一行
 
-            $line = fgets($file); //读取一行文本
-            $array[$i] = $line; //将文件内容以数组形式存储
-
+            if ($rand == $i){
+                $line = fgets($file);
+            }
             $i++;
         }
         fclose($file);
-        $rand = rand(0, count($array) - 1);
         if ($num != 0) {
-            setkeywords($path, $num, $array[$rand]);
+            setkeywords($path, $num, $line);
             $line = getkeywords($path, $num);
             return $line;
         }
 
-        return deletespace($array[$rand]); //返回一行
+        return deletespace($line); //返回一行
 
     }
 //  若文件出错将不会返回任何,以免程序崩溃
@@ -109,18 +109,17 @@ function gettitle($path = 'body')
     $files = Storage::files($path);
     $rand = rand(0, count($files) - 1);
     $file = @fopen($files[$rand], 'r');
-    $array = array();
+    $rand = rand(0,count($files[$rand])-1);
     if ($file) {
         $i = 0;
         while (!feof($file)) {
-            $line = fgets($file); //读取一行文本
-            $array[$i] = $line; //将文件内容以数组形式存储
-
+            if ($rand == $i){
+                $line = fgets($file);
+            }
             $i++;
         }
-        $num = rand(0, count($array) - 1);
-        $max = strpos($array[$num], '#');
-        $bt = substr($array[$num], 0, $max);
+        $max = strpos($line, '#');
+        $bt = substr($line, 0, $max);
         setbodytitle($path, $rand, $bt);
         fclose($file);
         return $bt;
@@ -182,6 +181,7 @@ function getimg($path = 'img')
     if (!count($files) <= 0) {
         $rand = rand(0, count($files) - 1);
         $file = Storage::url($files[$rand]);
+        dd($file);
         $file = str_replace('/storage', '', $file);
         return $file;
     }
