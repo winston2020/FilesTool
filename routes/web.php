@@ -13,10 +13,6 @@
 
 
 
-<<<<<<< HEAD
-Route::get('/', 'WeController@no');
-=======
->>>>>>> 62d4da007b38dd2c24de4a73b0f50f5a8e9f27c8
     //-------------LUKE---------------//
     Route::get('clu/LK','WeController@luke');
     Route::get('clu/LK{one}','WeController@luke');
@@ -187,7 +183,3 @@ Route::get('/', 'WeController@no');
     Route::get('/{one}/{two}', 'WeController@index');
     Route::get('/{one}/{two}/{three}', 'WeController@index');
     Route::get('/{one}/{two}/{three}/{four}', 'WeController@index');
-<<<<<<< HEAD
-=======
-    
->>>>>>> 62d4da007b38dd2c24de4a73b0f50f5a8e9f27c8
